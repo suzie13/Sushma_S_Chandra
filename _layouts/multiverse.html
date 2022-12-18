@@ -11,6 +11,7 @@
 
       <div id="main">
         {% for image in site.images %}
+        <a href="www.google.com">
         <article class="thumb">
           <a href="{{site.baseurl}}/assets/images/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.gif" class="image">
             <img src="{{site.baseurl}}/assets/images/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.gif" alt="{{ image.title }}" />
@@ -18,7 +19,10 @@
           <h2>{{ image.title }}</h2>
           <p>{{ image.caption }}</p>
         </article>
+      </a>
         {% endfor %}
+      </div>
+
 
         <!-- no idea where to put this... -->
         <!-- {{ content }} -->
