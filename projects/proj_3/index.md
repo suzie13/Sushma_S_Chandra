@@ -16,7 +16,7 @@ project_content:
         <br>
         <br>
 
-        The configuration variables are<br>
+        The configuration variables are:<br>
         q = [x_box, y_box, θ_box, x_jack, y_jack, θ_jack]
         <br
         At the start, the box and the jack are at rest.<br>
@@ -72,14 +72,13 @@ project_content:
         type: image
         title: A caption for the above image.
         body: /assets/images/thumbs/06.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-        <br>
+        
 
     -
         type: image
         title: A caption for the above image.
         body: /assets/images/thumbs/06.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-        <br>
-        <br>
+
     -
         type: paragraph
         body: "

@@ -45,7 +45,11 @@ project_content:
             to the position where the end-effector can grasp the cube, a cartesian trajectory is incorporated so that it can move in a straight line.</li>
             <li>In the third step (traj3), the end-effector position remains the same though in that period the gripper position is changed from 
             open to closed, cartesian trajectory is incorporated. </li>
-
+            <li>In the fourth step (traj4), the end-effector is moved from the position where it is grasping the cube to the standoff position above the initial cube position with the gripper being closed (i.e. holding the cube), cartesian trajectory is incorporated for it to move in a straight line. </li>
+            <li>In the fifth step (traj5), to move the end-effector from the standoff position above the cube’s initial position to the standoff position above the cube’s final position, screw trajectory is incorporated. </li>
+            <li>In the sixth step (traj6), to move the end-effector from the standoff position above the cube’s final position to the cube’s final or goal position, cartesian trajectory is incorporated. </li>
+            <li>In the seventh step (traj7), the end-effector position remains the same though in that period the gripper position is changed from closed to open, cartesian trajectory is incorporated. </li>
+            <li>In the eighth step (traj8), to move the end-effector from cube’s final or goal position to the standoff position at a certain z height above the cube’s final or goal position, cartesian trajectory is incorporated.</li>
         </ul>
 
         <strong>
@@ -59,7 +63,7 @@ project_content:
     - 
         type: image
         body: /assets/images/thumbs/01.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-        <br>
+        
     -
         type: paragraph
         body: "
@@ -70,7 +74,7 @@ project_content:
         "
 
     -
-        <br>
+        
         type: image
         body: /assets/images/thumbs/01.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
