@@ -12,37 +12,63 @@ project_content:
     -
         type: paragraph
         title: "Overview"
-        body: "To track a pen autonomously and grab it.
+        body: "The Franka Robot which has 7-dof picks up the lightsaber and knocks down enemies represented by red blocks while protecting the allies represented by blue blocks. These enemies and allies are arbitrarily positioned.
         <br>
         <br>
-
-        <strong>Hardware</strong>
-        <ul>
-            <li>PincherX 100 robotic arm</li>
-            <li>Intel Realsense D435i camera</li>
-        </ul>
-        <br>
-        <br>
-        <b>Skills</b>
-        <ul>
-            <li>ROS</li>
-            <li>OpenCV</li>
-            <li>Computer Vision</li>
-        </ul>
-
-
         "
     -
         type: paragraph
         title: "Description"
-        body: "To track a pen autonomously and grab it.
+        body: "
+        1)
+        <i>Frame Positions (Computer Vision)</i>
         <br>
         <br>
 
-        The Intel Realsense D435i depth camera is used to get the 3D position of the pen. Computer vision is incorporated to perform edge detection based on hsv color mask, gets the contours of the purple pen.<br>
-        <br>
-        The PincherX 100 robotic arm which has a 4 degree of freedom tracks the pen and moves to the coordinates of the detected purple pen and grabs the pen by closing its grippers, comes to the home position and opens its grippers to drop the pen.        
+        The transforms of the camera and workspace from the robot are obtained using AprilTags. The frames are fixed to the most recent transform so that even if the AprilTag is removed or covered by a fallen enemy, we can still know the relative positions from each other from the latest calibration.<br>
         <br>
         "
+    -
+        type: image
+        title: A caption for the above image.
+        body: /assets/images/thumbs/09.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    
+    -
+        type: paragraph
+        body: "
+        2)
+        <i>Detections (Computer Vision)</i><br>
+        The RealSense's aligned depth image is used to deproject the pixels in the RGB image into real world coordinates. For reliability, several filters are used (depth, contour area, location, and opening/closing) to ensure only the relevant objects are detected. Enemies and allies are detected, and their centroids give their position. Their labelling is sorted in x direction. The count of enemies vanquished is also calculated.        
+        <br>
+        "
+    -
+        type: image
+        title: A caption for the above image.
+        body: /assets/images/thumbs/05.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    
+    -
+        type: paragraph
+        body: "
+        3)
+        <i>Franka control</i><br>
+        The Franka then performs knockout motion by first checking for a left swing, stab, and then right swing possibility to knock out enemies without harming any allies, while keeping the ally safety as the highest priority. It decides to NOT execute any motion if harm of any ally cannot be avoided. <br>
+        <br>
+        After the Franka has held the lightsaber in the home position and the service to is called, the allies are added as collision object into the scene.
+
+        "
+    -
+        type: image
+        title: A caption for the above image.
+        body: /assets/images/thumbs/07.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    
+    -
+        type: paragraph
+        title: "Future Scope"
+        body: "Develop a more robust motion planning to increase its ability to tackle plan and execute decisions for more edge cases and other position variations of enemies and allies.
+        <br>
+        <br>
+        "
+    -
+
 ---
 
