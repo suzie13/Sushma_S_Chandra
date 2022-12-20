@@ -37,7 +37,7 @@ project_content:
         To create the complete trajectory for end-effector the task is divided into 8 steps for 8 separate trajectories
         </i>
         </b>
-        :
+
         <ul>
             <li>In the first step (traj1), to move the end-effector from its initial start position to the block but with a standoff 
             i.e. at a certain z height above the cube, a screw trajectory is incorporated. </li>
@@ -54,11 +54,11 @@ project_content:
 
         <strong>
         <i>
-        For calculating the Feedback Control:        
+        For calculating the Feedback Control       
         </i>
         </strong>
-    
-        "
+
+"
 
     - 
         type: image
