@@ -7,21 +7,13 @@ project_content:
     - 
         type: image
         title: A caption for the above image.
-        body: /assets/images/fulls/03.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/fulls/01.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
         type: paragraph
         title: "Overview"
-        body: "To track a pen autonomously and grab it.
+        body: "To simulate and animate a dynamic system of a jack in a box when the box is shaken. We are considering a side view in 2-D.
 
-        Hardware
-        •	PincherX 100 robotic arm
-        •	Intel Realsense D435i camera
-
-        Skills
-        •	ROS
-        •	OpenCV
-        •	Computer Vision
 
         The configuration variables are:
 
