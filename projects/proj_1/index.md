@@ -31,51 +31,6 @@ project_content:
             <li>Robotic Manipulation</li>
             <li>CoppeliaSim</li>
         </ul>
-    
-    -
-        type: paragraph
-        title: "Description"
-        body: "
-        <strong>
-        <i>
-        To create the complete trajectory for end-effector the task is divided into 8 steps for 8 separate trajectories:
-        </i>
-        </strong>
-
-        <ul>
-            <li>In the first step (traj1), to move the end-effector from its initial start position to the block but with a standoff 
-            i.e. at a certain z height above the cube, a screw trajectory is incorporated. </li>
-            <li>In the second step (traj2), to move the end-effector from the standoff position above the initial cube position 
-            to the position where the end-effector can grasp the cube, a cartesian trajectory is incorporated so that it can move in a straight line.</li>
-            <li>•	In the third step (traj3), the end-effector position remains the same though in that period the gripper position is changed from 
-            open to closed, cartesian trajectory is incorporated. </li>
-        </ul>
-
-        <strong>
-        <i>
-        For calculating the Feedback Control:        
-        </i>
-        </strong>
-    
         "
-
-    - 
-        type: image
-        body: /assets/images/fulls/01.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    
-    -
-    type: paragraph
-    body: "
-    PI control was used that made the motion smooth. 
-    For the new task:
-    Kp = 18 and Ki = 11 
-    The X_error plot is shown below:
-    "
-
-    - 
-        type: image
-        body: /assets/images/fulls/01.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    
-    -
 
 ---

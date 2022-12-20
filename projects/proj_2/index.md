@@ -13,15 +13,21 @@ project_content:
         type: paragraph
         title: "Overview"
         body: "To track a pen autonomously and grab it.
+        </br>
+        </br>
 
         Hardware
-        •	PincherX 100 robotic arm
-        •	Intel Realsense D435i camera
+        </br>
+        • PincherX 100 robotic arm
+        • Intel Realsense D435i camera
 
+        </br>
+        </br>
         Skills
-        •	ROS
-        •	OpenCV
-        •	Computer Vision
+        </br>
+        • ROS
+        • OpenCV
+        • Computer Vision
 
         The configuration variables are:
 
