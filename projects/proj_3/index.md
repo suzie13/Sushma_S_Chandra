@@ -72,7 +72,7 @@ project_content:
         title: A caption for the above image.
         body: /assets/images/thumbs/06.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
         <br>
-    -
+
     -
         type: image
         title: A caption for the above image.
