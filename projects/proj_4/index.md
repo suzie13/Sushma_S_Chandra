@@ -1,13 +1,13 @@
 ---
 layout: project
-project_title: "Track and Grab a Pen"
+project_title: "Attack of the Franka"
 project_caption: "One-liner description | Sept 2022."
 
 project_content:
     - 
         type: image
         title: A caption for the above image.
-        body: /assets/images/thumbs/03.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/08.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
         type: paragraph
