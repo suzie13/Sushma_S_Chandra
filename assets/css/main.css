@@ -1454,7 +1454,7 @@ a
 /* Header */
 
 	body {
-		padding: 0 0 1.15em 0;
+		padding: 0 0 4em 0;
 	}
 
 	#header {
@@ -1575,11 +1575,11 @@ a
 			}
 
 			#header h1 {
-				font-size: 0.7em;
+				font-size: 0.9em;
 			}
 
 			#header nav > ul > li a {
-				font-size: 0.7em;
+				font-size: 0.9em;
 				padding: 0 1.15em;
 			}
 
