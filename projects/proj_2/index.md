@@ -7,7 +7,7 @@ project_content:
     - 
         type: image
         title: A caption for the above image.
-        body: /assets/images/fulls/03.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/03.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
         type: paragraph
@@ -16,10 +16,11 @@ project_content:
         </br>
         </br>
 
-        Hardware
-        </br>
-        • PincherX 100 robotic arm
-        • Intel Realsense D435i camera
+        <strong>Hardware</strong>
+        <ul>
+            <li>PincherX 100 robotic arm</li>
+            <li>Intel Realsense D435i camera</li>
+        </ul>
 
         </br>
         </br>
@@ -29,9 +30,7 @@ project_content:
             <li>OpenCV</li>
             <li>Computer Vision</li>
         </ul>
-        • ROS
-        • OpenCV
-        • Computer Vision
+
 
         "
 ---

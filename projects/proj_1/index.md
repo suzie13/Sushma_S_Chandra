@@ -21,7 +21,7 @@ project_content:
         <br/>
         q = [x_box, y_box, θ_box, x_jack, y_jack, θ_jack]
 
-        <b>"Skills"</b>
+        <b>Skills</b>
 
         <ul>
             <li>Python</li>
