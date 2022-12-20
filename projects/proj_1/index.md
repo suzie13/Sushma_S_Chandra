@@ -31,7 +31,7 @@ project_content:
 
         type: paragraph
         title: "Description"
-        body:"
+        body: "
         <b>
         <i>
         To create the complete trajectory for end-effector the task is divided into 8 steps for 8 separate trajectories
@@ -58,7 +58,7 @@ project_content:
         </i>
         </strong>
 
-"
+        "
 
     - 
         type: image

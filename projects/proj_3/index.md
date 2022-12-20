@@ -15,7 +15,8 @@ project_content:
         body: "To simulate and animate a dynamic system of a jack in a box when the box is shaken. We are considering a side view in 2-D.
         <br>
         <br>
-        The configuration variables are:<br>
+
+        The configuration variables are<br>
         q = [x_box, y_box, θ_box, x_jack, y_jack, θ_jack]
         <br
         At the start, the box and the jack are at rest.<br>
