@@ -23,19 +23,16 @@ project_content:
 
         </br>
         </br>
-        Skills
-        </br>
+        <strong>Skills</strong>
+        <ul>
+            <li>ROS</li>
+            <li>OpenCV</li>
+            <li>Computer Vision</li>
+        </ul>
         • ROS
         • OpenCV
         • Computer Vision
 
-        The configuration variables are:
-
-        q = [x_box, y_box, θ_box, x_jack, y_jack, θ_jack]
-        
-
-        At the start, the box and the jack are at rest.
-        Below image depicts the frames I used.
         "
 ---
 
