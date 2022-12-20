@@ -87,6 +87,6 @@ project_content:
         The box is shaking as expected which slowly starts to die down until the impact from the jack adds a torque to the box. The box’s height is maintained to an extent and not changing much with respect to its center of mass to the world frame and it does not fall out of the scene.<br>
         The jack due to the force of gravity acting on it always tries to fall down while staying inside the box.<br>
         The impact of the jack on the walls of the box causes the jack itself to rotate as well as bounce from one wall to another.<br>
-
+        "
 ---
 
