@@ -16,8 +16,12 @@
               <img src="{{site.baseurl}}/assets/images/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.gif" alt="{{ image.title }}" />
             </a>
             <h2>{{ image.title }}</h2>
-            <p>{{ image.caption }}</p>
-          </article>
+            <div class="skillList">
+              {% for skill in image.skillList %}
+              <div class="skill">{{skill}}</div>
+              {% endfor %}
+            </div>
+            </article>
         {% endfor %}
 
         <!-- no idea where to put this... -->

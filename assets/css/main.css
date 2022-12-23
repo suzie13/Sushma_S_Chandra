@@ -1650,12 +1650,28 @@ a
 				font-size: 0.8em;
 				left: 2.1875em;
 				margin: 0;
+				top: 70%;
 				position: absolute;
 				z-index: 1;
 			}
 
-			#main .thumb > p {
-				display: none;
+			#main .thumb .skillList {
+				pointer-events: none;
+				bottom: 1.875em;
+				font-size: 0.8em;
+				left: 2.1875em;
+				margin: 0;
+				position: absolute;
+				z-index: 1;
+				top: 80%;
+				color: white;
+			}
+
+			.skillList .skill {
+				display: inline-block;
+				background-color: rgba(32, 34, 36, 0.7);
+				padding: 0.6em;
+				font-size: 0.8em;
 			}
 
 		#main:after {
