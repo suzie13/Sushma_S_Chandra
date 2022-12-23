@@ -15,7 +15,11 @@
             <a href="{{site.baseurl}}/projects/{{image.projectId}}" class="image">
               <img src="{{site.baseurl}}/assets/images/thumbs/{{ image.path | split: '/' | last | split: '.' | first }}.gif" alt="{{ image.title }}" />
             </a>
-            <h2>{{ image.title }}</h2>
+            <h2>
+              {% if image.title != null %}
+              <span style="text-shadow: 0px 0px 8px black !important;">{{ image.title }}</span>
+              {% endif %}
+            </h2>
             <div class="skillList">
               {% for skill in image.skillList %}
               <div class="skill">{{skill}}</div>
