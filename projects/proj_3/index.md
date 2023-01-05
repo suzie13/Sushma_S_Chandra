@@ -32,7 +32,7 @@ project_content:
         title: "Description"
         body: "
         <br>
-        <b>Rigid Body transformations</b>
+        <strong>Rigid Body transformations</strong><br>
         The transforms from the center of body to the world for both the box and the jack are found.<br>
         Next, the transforms of b1,b2,b3 and b4 of the box to b of the box; the transforms from d1, d2,d3,d4 of the jack to d of the jack.<br>
 
@@ -54,7 +54,7 @@ project_content:
         The constraint for jack's impact with the sides of box corresponding to the b2 and b4 frame is the y-axis. <br>
         <br>
         <br>
-        <b>Impact Update Laws</b>
+        <b>Impact Update Laws</b><br>
         Forces of gravity are acting on the total mass of the box and on the total mass of the jack. <br>
         Calculate the kinetic energy and potential energy acting on each<br>
         Langrangian = Total Kinetic energy (i.e. Box + Jack) – Total Potential energy ( i.e. Box + Jack) <br>
