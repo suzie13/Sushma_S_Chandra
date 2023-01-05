@@ -69,6 +69,17 @@ project_content:
         <br>
         "
     -
+        type: paragraph
+        body: "
+        <b>Team Members:</b>
+        Nick Morales<br>
+        Megan Sindelar<br>
+        Vaishnavi Dornadula<br>
+        Sushma S Chandra<br>
+        <br>
+        <br>
+        "
+    -
 
 ---
 
