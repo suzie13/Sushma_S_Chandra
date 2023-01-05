@@ -16,14 +16,14 @@ project_content:
         <br>
         <br>
 
-        <strong>Hardware</strong>
+        <i><strong>Hardware</strong></i>
         <ul>
             <li>PincherX 100 robotic arm</li>
             <li>Intel Realsense D435i camera</li>
         </ul>
         <br>
         <br>
-        <b>Skills</b>
+        <i><b>Skills</b></i>
         <ul>
             <li>ROS</li>
             <li>OpenCV</li>

@@ -71,7 +71,7 @@ project_content:
     -
         type: paragraph
         body: "
-        <strong>Team Members:</strong><br>
+        <i><b>Team Members:</b></i><br>
         Nick Morales<br>
         Megan Sindelar<br>
         Vaishnavi Dornadula<br>

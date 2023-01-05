@@ -32,7 +32,7 @@ project_content:
         title: "Description"
         body: "
         <br>
-        <strong>Rigid Body transformations</strong><br>
+        <i><strong>Rigid Body transformations</strong></i><br>
         The transforms from the center of body to the world for both the box and the jack are found.<br>
         Next, the transforms of b1,b2,b3 and b4 of the box to b of the box; the transforms from d1, d2,d3,d4 of the jack to d of the jack.<br>
 
@@ -44,8 +44,8 @@ project_content:
 
         <br>
         <br>
-        <b>Forces and Constraints</b>
-
+        <i><b>Forces and Constraints</b></i><br>
+        <br>
         An external force of 700*sin(pi*t) is applied on the box in the x direction. A sinusoidal type of force provides a back and forth shaking motion. 700 is the amplitude and pi*t is the period; frequency=2pi/period.<br>
         And another external force of magnitude of the gravitational force acting on the box (Total mass of box*gravity*height of the box from its center of mass with respect to the world frame) is applied in the opposite direction of that gravitational force to prevent the Box from falling down and going outside the scene.<br>
 
@@ -54,7 +54,7 @@ project_content:
         The constraint for jack's impact with the sides of box corresponding to the b2 and b4 frame is the y-axis. <br>
         <br>
         <br>
-        <b>Impact Update Laws</b><br>
+        <i><b>Impact Update Laws</b></i><br>
         Forces of gravity are acting on the total mass of the box and on the total mass of the jack. <br>
         Calculate the kinetic energy and potential energy acting on each<br>
         Langrangian = Total Kinetic energy (i.e. Box + Jack) – Total Potential energy ( i.e. Box + Jack) <br>
@@ -82,7 +82,7 @@ project_content:
     -
         type: paragraph
         body: "
-        <b>Observation</b>
+        <i><b>Observation</b></i>
         <br>
         The box is shaking as expected which slowly starts to die down until the impact from the jack adds a torque to the box. The box’s height is maintained to an extent and not changing much with respect to its center of mass to the world frame and it does not fall out of the scene.<br>
         The jack due to the force of gravity acting on it always tries to fall down while staying inside the box.<br>
