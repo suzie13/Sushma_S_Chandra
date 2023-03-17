@@ -1,12 +1,11 @@
 ---
 layout: project
 project_title: "3D Object Detection for Autonomous Driving"
-project_caption: "3D Bounding box on KTTI dataset images | Jan-March 2023."
+project_caption: "3D Bounding box on KITTI dataset images | Jan-March 2023."
 
 project_content:
     - 
         type: image
-        title: A caption for the above image.
         body: /assets/images/thumbs/08.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
