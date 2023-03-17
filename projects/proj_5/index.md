@@ -21,7 +21,17 @@ project_content:
         "
     -
         type: paragraph
-        title: "TRAINING"
+        title: "Description"
+        body: "
+        <br>
+        <br>
+
+        Complex YOLO model specifically YOLO-v3 is implemented.<br>
+        <br>
+        "
+    -
+        type: paragraph
+        title: "Training"
         body: "
 
         "
@@ -32,7 +42,7 @@ project_content:
     
     -
         type: paragraph
-        title: "INFERENCE"
+        title: "Inference"
         body: "
 
         "
@@ -41,6 +51,26 @@ project_content:
         title: A caption for the above image.
         body: /assets/images/thumbs/11.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
+    -
+        type: paragraph
+        title: "Summary"
+        body: "
+        <br>
+        <br>
+
+        <br>
+        <br>
+        "
+    -
+        type: paragraph
+        title: "References"
+        body: "
+        <br>
+        <br>
+
+        <br>
+        <br>
+        "
     -
 
 ---
