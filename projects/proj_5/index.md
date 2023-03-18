@@ -63,9 +63,9 @@ project_content:
         <br>
         <br>
 
-        Input -> LIDAR point clouds processed to get 3D feature maps. Camera images processed to get 2D feature maps.
-        Neural Network -> These feature maps fed into neural network to estimate 3D point space in LIDAR coordinate system. 
-        Output -> Object detection -> Class + 2D detection.  
+        Input -> LIDAR point clouds processed to get 3D feature maps. Camera images processed to get 2D feature maps.<br>
+        Neural Network -> These feature maps fed into neural network to estimate 3D point space in LIDAR coordinate system. <br>
+        Output -> Object detection -> Class + 2D detection.  <br>
         3D bounding box -> 3D box in LIDAR point cloud coordinate system.
 
         <br>
@@ -84,12 +84,9 @@ project_content:
         body: "
         <br>
         <br>
-        Obtaining 2D and 3D feature maps (sensor fusion) occurs during inference. (i.e. after training neural network and then it is applied to new data to detect and localize objects in that scene.
-
-        During Training -> Labelled data; Lidar point cloud + camera image data + ground truth annotation (object location, orientation, size). Weights and biases adjusted to minimize differences between predicted output and ground truth annotation.
-
-        During Inference -> Lidar point cloud + camera image data. Sensor fusion to generate 2D and 3D feature maps. These feature maps are fed into network for object detection and localization. Output of network used to predict location, orientation, and size.
-
+        Obtaining 2D and 3D feature maps (sensor fusion) occurs during inference. (i.e. after training neural network and then it is applied to new data to detect and localize objects in that scene.<br>
+        During Training -> Labelled data; Lidar point cloud + camera image data + ground truth annotation (object location, orientation, size). Weights and biases adjusted to minimize differences between predicted output and ground truth annotation.<br>
+        During Inference -> Lidar point cloud + camera image data. Sensor fusion to generate 2D and 3D feature maps. These feature maps are fed into network for object detection and localization. Output of network used to predict location, orientation, and size.<br>
         <br>
         <br>
         "
@@ -98,9 +95,7 @@ project_content:
         title: "References"
         body: "
         <br>
-        <br>
-
-        <br>
+        https://doi.org/10.48550/arXiv.2004.10934
         <br>
         "
     -
