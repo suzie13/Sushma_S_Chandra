@@ -38,7 +38,7 @@ project_content:
     -
         type: image
         title: Block diagram of model training.
-        body: /assets/images/thumbs/block_diag_train.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/Block_diag_train.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
         type: paragraph
