@@ -35,6 +35,11 @@ project_content:
         <br>
         "
     -
+        type: image
+        title: Camera image and 2D Lidar image of same scene.
+        body: /assets/images/thumbs/a.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+
+    -
         type: paragraph
         title: "Training"
         body: "During training, the Complex-YOLO model is trained to predict the class labels and
