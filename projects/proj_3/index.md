@@ -70,15 +70,21 @@ project_content:
         "
     -
         type: image
-        title: A caption for the above image.
-        body: /assets/images/thumbs/04.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/jack2.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
         
 
     -
         type: image
-        title: A caption for the above image.
-        body: /assets/images/thumbs/05.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/jack3.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
+    -
+        type: image
+        body: /assets/images/thumbs/jack4.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        
+    -
+        type: image
+        body: /assets/images/thumbs/jack5.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        
     -
         type: paragraph
         body: "

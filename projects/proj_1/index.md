@@ -62,7 +62,7 @@ project_content:
 
     - 
         type: image
-        body: /assets/images/thumbs/02.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/youbot1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
         
     -
         type: paragraph
@@ -76,7 +76,7 @@ project_content:
     -
         
         type: image
-        body: /assets/images/thumbs/04.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/youbot2.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
 
