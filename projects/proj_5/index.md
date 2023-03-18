@@ -89,18 +89,17 @@ project_content:
         body: "
         <br>
         <br>
-            The weights obtained after training the model for 115 epochs has:
-            A total loss=
-            classification accuracy =
-            model accuracy = 
+            The weights obtained after training the model for 115 epochs has:<br>
+            A total loss = 0.0459 approx<br>
+            classification accuracy =  99.79% approx<br>
         <br>
         <br>
         "
 
     -
         type: image
-        title: Loss metric
-        body: /assets/images/thumbs/16.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        title: Evaluation metric
+        body: /assets/images/thumbs/metric1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
         type: paragraph
