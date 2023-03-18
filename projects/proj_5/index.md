@@ -1,6 +1,6 @@
 ---
 layout: project
-project_title: "3D Object Detection for Autonomous Driving"
+project_title: "3D Object-Detection for Autonomous Driving"
 project_caption: "3D Bounding box on KITTI dataset images | Jan-March 2023."
 
 project_content:
@@ -38,7 +38,7 @@ project_content:
     -
         type: image
         title: Block diagram of model training.
-        body: /assets/images/thumbs/12.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/block_diag_train.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
         type: paragraph
@@ -49,8 +49,8 @@ project_content:
     -
         type: image
         title: Block diagram of model inference.
-        body: /assets/images/thumbs/11.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    
+        body: /assets/images/thumbs/block_diag_inf.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+
     -
         type: paragraph
         title: "Summary"
