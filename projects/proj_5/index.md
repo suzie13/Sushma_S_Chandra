@@ -93,7 +93,8 @@ project_content:
     -
         type: paragraph
         title: "Github"
-        body: " <a href="https://github.com/suzie13/3D-Object-Detection-for-Autonomous-Driving/tree/3D">"
+        body: " <a href="https://github.com/suzie13/3D-Object-Detection-for-Autonomous-Driving/tree/3D">Code Link</a>
+        "
     -
         type: paragraph
         title: "References"
