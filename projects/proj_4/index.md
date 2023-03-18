@@ -31,7 +31,7 @@ project_content:
     -
         type: image
         title: A caption for the above image.
-        body: /assets/images/thumbs/09.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/attackoffranka1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
         type: paragraph
@@ -44,7 +44,7 @@ project_content:
     -
         type: image
         title: A caption for the above image.
-        body: /assets/images/thumbs/05.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/attackoffranka2.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
         type: paragraph
@@ -59,8 +59,7 @@ project_content:
     -
         type: image
         title: A caption for the above image.
-        body: /assets/images/thumbs/07.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    
+        body: /assets/images/thumbs/attackoffranka3.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Future Scope"
