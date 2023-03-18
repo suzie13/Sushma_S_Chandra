@@ -37,7 +37,7 @@ project_content:
         "
     -
         type: image
-        title: A caption for the above image.
+        title: Block diagram of model training.
         body: /assets/images/thumbs/12.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
@@ -48,7 +48,7 @@ project_content:
         "
     -
         type: image
-        title: A caption for the above image.
+        title: Block diagram of model inference.
         body: /assets/images/thumbs/11.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
