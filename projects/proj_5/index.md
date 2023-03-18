@@ -11,7 +11,7 @@ project_content:
     - 
         type: image
         title: Detections in 2D LIDAR bird's eye view image
-        body: /assets/images/thumbs/LIDAR.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/LIDAR_new.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
         type: paragraph
