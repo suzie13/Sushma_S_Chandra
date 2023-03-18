@@ -6,7 +6,7 @@ project_caption: "3D Bounding box on KITTI dataset images | Jan-March 2023."
 project_content:
     - 
         type: image
-        body: /assets/images/thumbs/08.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/front_tile_3D.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
         type: paragraph
