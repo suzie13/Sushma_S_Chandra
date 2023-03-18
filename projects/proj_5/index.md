@@ -6,7 +6,12 @@ project_caption: "3D Bounding box on KITTI dataset images | Jan-March 2023."
 project_content:
     - 
         type: image
+        title: 3D bounding box on camera image
         body: /assets/images/thumbs/front_tile_3D.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    - 
+        type: image
+        title: Detections in 2D LIDAR bird's eye view image
+        body: /assets/images/thumbs/LIDAR.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
         type: paragraph
