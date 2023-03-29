@@ -7,7 +7,7 @@ project_content:
     - 
         type: image
         title: Qudrotor Autonomous flying
-        body: /assets/images/thumbs/02.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/quadrotor.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Overview"
