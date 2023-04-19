@@ -1,7 +1,7 @@
 ---
 layout: project
 project_title: "Attack of the Franka"
-project_caption: "One-liner description | Sept 2022."
+project_caption: "Attack of the Franka Fall Project | Sept 2022."
 
 project_content:
     - 
