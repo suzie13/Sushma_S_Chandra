@@ -22,8 +22,6 @@ project_content:
         body: "
         1)
         <i>Frame Positions (Computer Vision)</i>
-        <br>
-        <br>
 
         The transforms of the camera and workspace from the robot are obtained using AprilTags. The frames are fixed to the most recent transform so that even if the AprilTag is removed or covered by a fallen enemy, we can still know the relative positions from each other from the latest calibration.<br>
         <br>
