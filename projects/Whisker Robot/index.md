@@ -7,7 +7,7 @@ project_content:
     - 
         type: image
         title: Whisker Robot
-        body: /assets/images/thumbs/quadrotor.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: " alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Overview"

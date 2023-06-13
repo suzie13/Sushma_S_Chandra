@@ -7,7 +7,7 @@ project_content:
     - 
         type: image
         title: Speedy Motion Detection
-        body: https://www.youtube.com/watch?v=5dqbXpmGwbc" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: "https://www.youtube.com/watch?v=5dqbXpmGwbc" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Overview"
