@@ -12,13 +12,47 @@ project_content:
         type: paragraph
         title: "Overview"
         body: " 
+        The goal was to develop a quadrotor autopilot system that can fly autonomously. 
+        The sub-goals of the project involved :
+        - control of the quadrotor manually via keyboard
+        - control of the quadrotor manually via joystick
+        - autonomous control of the quadrotor via Vive Lighthouse
         <br>
         <br>
         "
     -
         type: paragraph
-        title: "Description"
+        title: "Hardware setup"
         body: "
+        <br>
+        <br>
+
+        <br>
+        "
+    -
+
+        type: paragraph
+        title: "Control"
+        body: "
+        <br>
+        <br>
+
+        <br>
+        "
+    -
+
+        type: paragraph
+        title: "Safety"
+        body: "
+        <br>
+        <br>
+
+        <br>
+        "
+    -
+        type: paragraph
+        title: "Project Partner"
+        body: " Charles Cheng
         <br>
         <br>
 

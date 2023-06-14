@@ -7,7 +7,7 @@ project_content:
     - 
         type: image
         title: Speedy Motion Detection
-        body: {% include youtube.html id="JLMbpiywVxQ" %}
+        body: /assets/images/thumbs/random.gif" alt="https://img.youtube.com/vi/5dqbXpmGwbc/maxresdefault.jpg
     -
         type: paragraph
         title: "Overview"
@@ -43,7 +43,15 @@ project_content:
         <br>
         "
     -
+        type: paragraph
+        title: "Project Partner"
+        body: " Charles Cheng
+        <br>
+        <br>
 
+        <br>
+        "
+    -
 
 ---
 
