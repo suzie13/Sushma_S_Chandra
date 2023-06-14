@@ -6,8 +6,8 @@ project_caption: " | 2019."
 project_content:
     - 
         type: image
-        title: 
-        body: " alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        title:
+        body: /assets/images/thumbs/random.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Overview"
