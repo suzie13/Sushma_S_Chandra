@@ -36,7 +36,7 @@ project_content:
         type: paragraph
         title: "Control"
         body: "The roll, pitch, yaw is controlled by using PID (Proportional Integral and Derivative ) algorithm. <br>
-        This allows for smooth flight in all directions with minimal overshooting or oscillations<br>
+        This allows for smooth flight in all directions with minimal overshooting or oscillations.<br>
         The PID gains were fine-tuned to gain stable and precise control of the quadrotor's orientation. <br>
         The thrust is controlled by regulating the PWM of the motors. 
         <br>
@@ -49,11 +49,11 @@ project_content:
         type: paragraph
         title: "Safety"
         body: " When in manual control i.e while using the keyboard or joystick the heartbeat was measured <br>
-        to know if the quadrotor is even connected to these input devices or not. There is a pause button or control,
-        and a kill or shutdown button or control that is incorporated. The pitch 
-        There is a maximum and minimum thrust and indirect speed or neutral power assigned to the control (keyboard or joystick).
+        to know if the quadrotor is even connected to these input devices or not. There is a pause button that stops the motors,
+        and a shutdown button that kills the program and stops the motors that is incorporated.
+        There is a maximum and minimum thrust and indirect speed or neutral power assigned to the control (via keyboard or joystick).
         <br>
-        There is also a maximum and minimum angle that is programmed to not exceed for either pitch or roll.
+        There is also a maximum and minimum angle that is programmed to not exceed for either of pitch or roll.
         <br>
         <br>
 

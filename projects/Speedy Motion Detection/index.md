@@ -17,7 +17,7 @@ project_content:
         "
     -
         type: paragraph
-        title: "Description"
+        title: "Design"
         body: "
         <br>
         <br>
@@ -26,7 +26,7 @@ project_content:
         "
     -
         type: paragraph
-        title: "Description"
+        title: "Algorithm"
         body: "
         <br>
         <br>
@@ -35,7 +35,16 @@ project_content:
         "
     -
         type: paragraph
-        title: "Description"
+        title: "Results"
+        body: "
+        <br>
+        <br>
+
+        <br>
+        "
+    -
+        type: paragraph
+        title: "Youtube Link"
         body: "
         <br>
         <br>
