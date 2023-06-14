@@ -7,7 +7,7 @@ project_content:
     - 
         type: image
         title: Speedy Motion Detection
-        body: /assets/images/thumbs/random.gif" alt="https://www.youtube.com/watch?v=5dqbXpmGwbc"
+        body: /assets/images/thumbs/random.gif" alt="https://img.youtube.com/vi/5dqbXpmGwbc/maxresdefault.jpg
     -
         type: paragraph
         title: "Overview"
