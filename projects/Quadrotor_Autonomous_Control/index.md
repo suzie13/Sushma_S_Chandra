@@ -12,18 +12,20 @@ project_content:
         type: paragraph
         title: "Overview"
         body: " 
-        The goal was to develop a quadrotor autopilot system that can fly autonomously. 
-        The sub-goals of the project involved :
-        - control of the quadrotor manually via keyboard
-        - control of the quadrotor manually via joystick
-        - autonomous control of the quadrotor via Vive Lighthouse
+        The goal was to develop a quadrotor autopilot system that can fly autonomously. <br>
+        The sub-goals of the project involved : <br>
+        - control of the quadrotor manually via keyboard <br>
+        - control of the quadrotor manually via joystick <br>
+        - autonomous control of the quadrotor via Vive Lighthouse <br>
         <br>
         <br>
         "
     -
         type: paragraph
         title: "Hardware setup"
-        body: "
+        body: " The harware components of the quadrotor that were assembled primarily comprises <br>
+        the WIFI module, IMU (Inertial Measurement Unit) sensor, raspberry pi, 4 motors and a rechargable lithium battery.<br>
+        Additional harware that was used was a joystick and vive sensor.<br>
         <br>
         <br>
 
@@ -33,7 +35,10 @@ project_content:
 
         type: paragraph
         title: "Control"
-        body: "
+        body: "The roll, pitch, yaw is controlled by using PID (Proportional Integral and Derivative ) algorithm. <br>
+        This allows for smooth flight in all directions with minimal overshooting or oscillations<br>
+        The PID gains were fine-tuned to gain stable and precise control of the quadrotor's orientation. <br>
+        The thrust is controlled by regulating the PWM of the motors. 
         <br>
         <br>
 
@@ -43,7 +48,12 @@ project_content:
 
         type: paragraph
         title: "Safety"
-        body: "
+        body: " When in manual control i.e while using the keyboard or joystick the heartbeat was measured <br>
+        to know if the quadrotor is even connected to these input devices or not. There is a pause button or control,
+        and a kill or shutdown button or control that is incorporated. The pitch 
+        There is a maximum and minimum thrust and indirect speed or neutral power assigned to the control (keyboard or joystick).
+        <br>
+        There is also a maximum and minimum angle that is programmed to not exceed for either pitch or roll.
         <br>
         <br>
 
