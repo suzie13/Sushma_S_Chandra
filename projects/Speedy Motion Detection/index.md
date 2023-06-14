@@ -7,7 +7,7 @@ project_content:
     - 
         type: image
         title: Speedy Motion Detection
-        body: /assets/images/thumbs/random.gif" alt="https://img.youtube.com/vi/5dqbXpmGwbc/maxresdefault.jpg
+        body: /assets/images/thumbs/falling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Overview"
@@ -35,7 +35,52 @@ project_content:
         "
     -
         type: paragraph
-        title: "Results"
+        title: "Demonstrations"
+    -
+        type: paragraph
+        title: "Multiple falling objects demo:"
+        body: "  <br>
+        /assets/images/thumbs/falling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        <br>
+        <br>
+    -
+        type: paragraph
+        title: "Non-falling or non speedy motion demo:"
+        body: "  <br>
+        /assets/images/thumbs/nonfalling-motion-out.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        <br>
+        <br>
+    -
+        type: paragraph
+        title: "Simultaneous Moving objects demo:"
+        body: "
+        <br>
+        /assets/images/thumbs/07.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        <br>
+        <br>
+
+        <br>
+    -
+        type: paragraph
+        title: "Youtube Link"
+        body: "
+        <br>
+        <br>
+
+        <br>
+        "
+    -
+        type: paragraph
+        title: "Result Analysis"
+        body: "
+        <br>
+        <br>
+
+        <br>
+        "
+    -
+        type: paragraph
+        title: "Future Scope"
         body: "
         <br>
         <br>
