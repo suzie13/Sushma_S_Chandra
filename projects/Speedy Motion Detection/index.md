@@ -1,7 +1,7 @@
 ---
 layout: project
 project_title: "Speedy Motion Detection"
-project_caption: "Quadrotor Mixed Autonomy | Jan-March 2023."
+project_caption: "Speedy Motion Detection | May 2023."
 
 project_content:
     - 
@@ -37,15 +37,15 @@ project_content:
         type: paragraph
         title: "Demonstrations"
     -
-        type: paragraph
+        type: image
         title: "Multiple falling objects demo:"
         body: /assets/images/thumbs/falling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
-        type: paragraph
+        type: image
         title: "Non-falling or non speedy motion demo:"
         body: /assets/images/thumbs/nonfalling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
-        type: paragraph
+        type: image
         title: "Simultaneous Moving objects demo:"
         body: /assets/images/thumbs/simult_falling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
