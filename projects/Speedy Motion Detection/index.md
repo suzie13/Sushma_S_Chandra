@@ -39,23 +39,19 @@ project_content:
     -
         type: paragraph
         title: "Multiple falling objects demo:"
-        body: "  <br>
-        /assets/images/thumbs/falling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/falling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
         <br>
         <br>
     -
         type: paragraph
         title: "Non-falling or non speedy motion demo:"
-        body: "  <br>
-        /assets/images/thumbs/nonfalling-motion-out.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/nonfalling-motion-out.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
         <br>
         <br>
     -
         type: paragraph
         title: "Simultaneous Moving objects demo:"
-        body: "
-        <br>
-        /assets/images/thumbs/07.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/simult_falling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
         <br>
         <br>
 
@@ -90,7 +86,7 @@ project_content:
     -
         type: paragraph
         title: "Youtube Link"
-        body: "
+        body: " https://www.youtube.com/watch?v=5dqbXpmGwbc
         <br>
         <br>
 
