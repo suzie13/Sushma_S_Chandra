@@ -81,7 +81,7 @@ project_content:
         body: " 
         Machine learning can be used for object similarity <br>
         Eliminate shadow tracking <br>
-        Use other technique like edge detection like OpenCV Canny Edge Detection 
+        Use other technique like edge detection like OpenCV Canny Edge Detection <br>
         Instead of bounding boxes, obtain object shapes by using segmentation techniques
         <br>
         <br>
