@@ -6,12 +6,12 @@ project_caption: "Speedy Motion Detection | May 2023."
 project_content:
     - 
         type: image
-        title: Speedy Motion Detection
+        title: Speedy Motion Detection on random falling objects
         body: /assets/images/thumbs/falling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Overview"
-        body: " 
+        body: " The motivation for this project.
         <br>
         <br>
         "
@@ -38,8 +38,14 @@ project_content:
         title: "Demonstrations"
     -
         type: image
-        title: "Non-falling or non speedy motion demo"
+        title: "Non-falling or non speedy motion"
         body: /assets/images/thumbs/nonfalling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: paragraph
+        body: "
+        <br>
+        <br>
+        "
     -
         type: image
         title: "Simultaneous Moving objects demo"
