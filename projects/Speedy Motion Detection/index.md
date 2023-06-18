@@ -78,18 +78,13 @@ project_content:
     -
         type: paragraph
         title: "Future Scope"
-        body: "
+        body: " 
+        Machine learning can be used for object similarity <br>
+        Eliminate shadow tracking <br>
+        Use other technique like edge detection like OpenCV Canny Edge Detection 
+        Instead of bounding boxes, obtain object shapes by using segmentation techniques
         <br>
         <br>
-
-
-
-
-
-
-
-
-
         <br>
         "
     -
