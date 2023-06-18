@@ -78,7 +78,7 @@ project_content:
     -
         type: paragraph
         title: "Youtube Link"
-        body: " https://www.youtube.com/watch?v=5dqbXpmGwbc
+        body: "https://www.youtube.com/watch?v=5dqbXpmGwbc
         <br>
         <br>
 

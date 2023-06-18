@@ -1,7 +1,7 @@
 ---
 layout: project
 project_title: "Whisker Robot"
-project_caption: "Quadrotor Mixed Autonomy | Jan-March 2023."
+project_caption: "Whisker Robot | April-August 2023."
 
 project_content:
     - 
@@ -35,7 +35,7 @@ project_content:
         "
     -
         type: paragraph
-        title: "Description"
+        title: "Acknowledgements"
         body: "
         <br>
         <br>

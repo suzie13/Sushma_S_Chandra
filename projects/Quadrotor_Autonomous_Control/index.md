@@ -41,7 +41,21 @@ project_content:
         The thrust is controlled by regulating the PWM of the motors. 
         <br>
         <br>
+        //Complementary filter for estimating roll and pitch angles <br>
+        //using gyroscope and accelerometer data from an IMU: <br>
+        roll_gyro += imu_data[1]*imu_diff; <br>
+        pitch_gyro += imu_data[0]*imu_diff; <br>
+        roll_angle = roll_accel*A_COMP_FILTER + (1-A_COMP_FILTER)*(roll_angle+imu_data[1]*imu_diff); <br>
+        pitch_angle = pitch_accel*A_COMP_FILTER + (1-A_COMP_FILTER)*(pitch_angle+imu_data[0]*imu_diff); <br>
 
+        //motor controls: <br>
+        motor_cntrl0 = desired_thrust+desired_pitch-desired_roll-yaw_error*P_YAW-yaw_vive_error*P_VIVE_YAW; <br>
+        motor_cntrl1 = desired_thrust-desired_pitch-desired_roll+yaw_vive_error*P_VIVE_YAW; <br>
+        motor_cntrl2 = desired_thrust-desired_pitch+desired_roll-yaw_vive_error*P_VIVE_YAW; <br>
+        motor_cntrl3 = desired_thrust+desired_pitch+desired_roll+yaw_error*P_YAW+yaw_vive_error*P_VIVE_YAW; <br>
+
+        <br>
+        <br>
         <br>
         "
     -
