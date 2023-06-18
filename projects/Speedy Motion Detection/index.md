@@ -50,24 +50,7 @@ project_content:
         type: image
         title: "Simultaneous Moving objects demo"
         body: /assets/images/thumbs/simult_falling.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    -
-        type: paragraph
-        title: "Description"
-        body: "
-        <br>
-        <br>
 
-        <br>
-        "
-    -
-        type: paragraph
-        title: "Result Analysis"
-        body: "
-        <br>
-        <br>
-
-        <br>
-        "
     -
         type: paragraph
         title: "Future Scope"
@@ -81,6 +64,12 @@ project_content:
         type: paragraph
         title: "Youtube Link"
         body: <a href="https://www.youtube.com/watch?v=5dqbXpmGwbc ">Video Presentation Link</a>
+    -
+        type: paragraph
+        body: "
+        <br>
+        <br>
+        "
     -
         type: paragraph
         title: "Project Partner"
