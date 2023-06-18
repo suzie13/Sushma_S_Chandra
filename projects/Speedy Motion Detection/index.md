@@ -19,7 +19,8 @@ project_content:
         useful in regions prone to earthquakes, and also at construction sites. <br>
         <br>
         <br>
-        This project integrates a static background and utilizes a single point perspective camera view.
+        This project integrates a static background and utilizes a single point perspective camera view. <br>
+        The algorithm ensures to only detect objects moving with a speed greater than a certain threshold.
         "
     -
         type: paragraph
