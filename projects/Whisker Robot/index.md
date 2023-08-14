@@ -8,17 +8,13 @@ project_content:
         type: image
         title: Whisker Robot
         body: "https://www.w3schools.com/bootstrap4/paris.jpg"
-    -
-        type: paragraph
-        title: "Background"
-        body: " 
-        <br>
-        <br>
-        "
+
     -
         type: paragraph
         title: "Motive"
-        body: "
+        body: " The main goal is to make the robot be able to tell the position (x-coordinate, y-coordinate) <br>
+        of an object that is in contact with the whiskers of the Robot. This is inspired by how rats are able to obtain <br>
+        information about their surrounding environment with the help of their whiskers. <br>
         <br>
         <br>
 
@@ -29,10 +25,51 @@ project_content:
         title: "Description"
         body: "
         <br>explain hardware setup
+
+        There is a Whisker Robot, and an xy-plotter, both enclosed within an arena. They are actually clamped <br>
+        to the table to avoid any movement of either the Whisker Robot or the xy-plotter setup. There is a  <br>
+        top camera, obtaining the top view of the hardware setup, a front-camera obtaining a front-view of the <br>
+        Whisker Robot and the object that is made to contact the whiskers, then there is an interior camera <br>
+        mounted inside the Whisker Robot which obtains images of the membrane which is attatched to the whiskers. <br>
+        This membrane changes with movement or changes in the position of any of the 9 whiskers of the whisker array. <br>
+
         <br>explain data collection
+
+        I designed an automatic data collection system. An aruco marker is plaaced on the Whisker Robot which is stationary, <br>
+        and another aruco marker on the part of the xy-plotter that moves along with the object the same magnitude and in  <br>
+        the same direction. Therefore, using these two aruco markers which is read from the top camera, the object position <br>
+        relative to the Whisker Robot is acquired/calculated. The object is moved by a step size of two units (approximately 0.89mm) <br>
+        according to the xy-plotter in the direction that is across (perpendicular) to the whisker array and by a step size of two units 
+        according to the xy-plotter (equivalent to approximately 0.66mm) in the direction along (parallel) to the whisker array.
+        It is important to note that the xy-plotter is not a perfect square hence the difference in the step size value across x and y.
+        After completing to traverse the entire breadth of the xy-plotter through mutliple steps, the object is moved a step parallel
+        to the whisker array and this process continues until it reaches the start (0,0) point of the xy plotter which is the closest
+        possible to the Whisker Robot along the direction parallel to the whisker array.
+
+
+        After the completion of each step, there is a pause of about 2 seconds before the xy-plotter is instructed to take the next step.
+        During this pause, an image of the membrane which might of might not have changed slightly depending on the contact or no contact of the object 
+        to part or whole of the whisker array, is captured. The image is saved with a name i.e "Serialno._Timestamp", where the Serial_no. is indicative 
+        of the order in which the images are captured and the timestamp is indicative of the time (YY-MM-DD-HH-MM-SS-&#181). 
+        At the same instance, data is collected/stored in a csv file having the same serial number and timestamp under their respective columns,
+        along with the x-coordinate and y-coordinate information as obtained by the aruco markers detected from the top camera, the direction 
+        in which the object was brought in contact with the whiskers (i.e left or right) is stored, and the x-step and y-step information 
+        as per the x-y plotter is stored as well. Due to motors slipping, the object might not end up at the commanded position each time
+        thereby the x-step and y-step giving an incorrect indication of the actual position of the object. This issue is accounted for as the 
+        x,y coordinates information is collected via the top camera using aruco markers yielding far more accurate readings.
+
+        <br>
+        ""    
+    -
+        type: paragraph
+        title: "Data Preprocessing"
+        body: " 
+        <br>
+        <br>
 
         <br>
         "
+        
     -
         type: image
         title: Model Architecture
@@ -40,7 +77,35 @@ project_content:
     -
         type: paragraph
         body: "
-        <br>Explain each component and why each was chosen, regression output etc.
+        <br>Explain each component and why each was chosen, regression output etc. <br>
+        The colvolution layers extracts features from the input image using filters or weights/matrices <br>
+        which are like a sliding window being multiplied with the input pixels. From the convolution <br>
+        layers we obtain feature maps. The MaxPooling layer results in a downsampling picking up only <br>
+        the important features. In this case I have used a Max-Pooling layer with pool size (2,2),  <br>
+        <br>
+        <br>
+        The formula to calculate the output shape of a Conv2D layer is: <br>
+
+        Output height = (Input height - Filter height + 2 * Padding) / Stride + 1 <br>
+        Output width = (Input width - Filter width + 2 * Padding) / Stride + 1 <br>
+
+        <br>
+        Too calculate output shape after the Max Pooling layer: <br>
+        ((input height/pool size), (input width/pool size), number of channels) <br>
+        <br>
+
+        The flatten layer is primary responsible for vectorization into a 1D (one-dimension),        <br>
+        for feature aggregation by forming a comprehensive set of features, and to aid in transition <br>
+        into fully connected layers. <br>
+        <br>
+        Therefore, the output shape is simply: input height * input width * number of channels <br>
+        <br>
+        Fully Connected layers, also known as Dense layers, is responsible for end to end learning,  <br>
+        used for decision-making and final predictions. It is connected to all th neurons of the previous layer. <br>                         
+        Here, the model learns more abstract features from the input image. <br>
+        Hyperparameter tuning like experimenting with the learning rate,number of layers, number of filters in each layer, <br>
+        using batch normalization, using regularization, using dropout layers can be done to try to achieve improved results. <br>
+
         <br>
 
         <br>
@@ -49,8 +114,16 @@ project_content:
         type: paragraph
         title: "Results"
         body: "
-        <br>explain hardware setup
-        <br>explain data collection
+        <br>
+        <br>
+
+        <br>
+        "
+    -
+        type: paragraph
+        body: " Github Link
+        <br>
+        <br>
 
         <br>
         "
@@ -59,15 +132,21 @@ project_content:
         title: "Future Scope"
         body: "
         <br>
-        <br>experiment with different ML algorithms, multi-modal approaches, predict , shape calculations
+        <br>experiment with different ML algorithms, multi-modal approaches, predict shape, calculations
 
         <br>
-        "
+        " 
     -
         type: paragraph
         title: "Acknowledgements"
         body: "
         <br>
+        Dr. Mitra Hartmann (Principle Investigator at SeNSE LAB) <br>
+        Mr. Kevin James Kleczka (Research Engineer at SeNSE LAB) <br>
+        Professor Matthew Elwin (Co-Director of MS in Robotics program) <br>
+
+        SeNSE LAB  (Sensory and Neural Systems Engineering)
+        (Link) https://sense-lab.github.io/index.html
         <br>
 
         <br>
