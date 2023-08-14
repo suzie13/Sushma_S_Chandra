@@ -39,27 +39,28 @@ project_content:
         and another aruco marker on the part of the xy-plotter that moves along with the object the same magnitude and in  <br>
         the same direction. Therefore, using these two aruco markers which is read from the top camera, the object position <br>
         relative to the Whisker Robot is acquired/calculated. The object is moved by a step size of two units (approximately 0.89mm) <br>
-        according to the xy-plotter in the direction that is across (perpendicular) to the whisker array and by a step size of two units 
-        according to the xy-plotter (equivalent to approximately 0.66mm) in the direction along (parallel) to the whisker array.
-        It is important to note that the xy-plotter is not a perfect square hence the difference in the step size value across x and y.
-        After completing to traverse the entire breadth of the xy-plotter through mutliple steps, the object is moved a step parallel
-        to the whisker array and this process continues until it reaches the start (0,0) point of the xy plotter which is the closest
-        possible to the Whisker Robot along the direction parallel to the whisker array.
+        according to the xy-plotter in the direction that is across (perpendicular) to the whisker array and by a step size of two units <br>
+        according to the xy-plotter (equivalent to approximately 0.66mm) in the direction along (parallel) to the whisker array. <br>
+        It is important to note that the xy-plotter is not a perfect square hence the difference in the step size value across x and y. <br>
+        After completing to traverse the entire breadth of the xy-plotter through mutliple steps, the object is moved a step parallel <br>
+        to the whisker array and this process continues until it reaches the start (0,0) point of the xy plotter which is the closest <br>
+        possible to the Whisker Robot along the direction parallel to the whisker array. <br>
+        <br>
+        <br>
 
-
-        After the completion of each step, there is a pause of about 2 seconds before the xy-plotter is instructed to take the next step.
-        During this pause, an image of the membrane which might of might not have changed slightly depending on the contact or no contact of the object 
-        to part or whole of the whisker array, is captured. The image is saved with a name i.e "Serialno._Timestamp", where the Serial_no. is indicative 
-        of the order in which the images are captured and the timestamp is indicative of the time (YY-MM-DD-HH-MM-SS-&#181). 
-        At the same instance, data is collected/stored in a csv file having the same serial number and timestamp under their respective columns,
-        along with the x-coordinate and y-coordinate information as obtained by the aruco markers detected from the top camera, the direction 
-        in which the object was brought in contact with the whiskers (i.e left or right) is stored, and the x-step and y-step information 
-        as per the x-y plotter is stored as well. Due to motors slipping, the object might not end up at the commanded position each time
-        thereby the x-step and y-step giving an incorrect indication of the actual position of the object. This issue is accounted for as the 
-        x,y coordinates information is collected via the top camera using aruco markers yielding far more accurate readings.
+        After the completion of each step, there is a pause of about 2 seconds before the xy-plotter is instructed to take the next step.<br>
+        During this pause, an image of the membrane which might of might not have changed slightly depending on the contact or no contact of the object <br>
+        to part or whole of the whisker array, is captured. The image is saved with a name i.e 'Serialno._Timestamp', where the Serial_no. is indicative <br>
+        of the order in which the images are captured and the timestamp is indicative of the time (YY-MM-DD-HH-MM-SS-&#181). <br>
+        At the same instance, data is collected/stored in a csv file having the same serial number and timestamp under their respective columns, <br>
+        along with the x-coordinate and y-coordinate information as obtained by the aruco markers detected from the top camera, the direction <br>
+        in which the object was brought in contact with the whiskers (i.e left or right) is stored, and the x-step and y-step information <br>
+        as per the x-y plotter is stored as well. Due to motors slipping, the object might not end up at the commanded position each time <br>
+        thereby the x-step and y-step giving an incorrect indication of the actual position of the object. This issue is accounted for as the <br>
+        x,y coordinates information is collected via the top camera using aruco markers yielding far more accurate readings. <br>
 
         <br>
-        "  
+        "
     -
         type: paragraph
         title: "Data Preprocessing"
