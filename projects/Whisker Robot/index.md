@@ -22,9 +22,9 @@ project_content:
         "
     -
         type: paragraph
-        title: "Description"
+        title: "Hardware Setup"
         body: "
-        <br>explain hardware setup
+        <br>
 
         There is a Whisker Robot, and an xy-plotter, both enclosed within an arena. They are actually clamped <br>
         to the table to avoid any movement of either the Whisker Robot or the xy-plotter setup. There is a  <br>
@@ -32,8 +32,27 @@ project_content:
         Whisker Robot and the object that is made to contact the whiskers, then there is an interior camera <br>
         mounted inside the Whisker Robot which obtains images of the membrane which is attatched to the whiskers. <br>
         This membrane changes with movement or changes in the position of any of the 9 whiskers of the whisker array. <br>
+        "
+        <br>
+    -
+        type: image
+        title: Top View
+        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
 
-        <br>explain data collection
+    -
+        type: image
+        title: Membrane Image
+        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+    - 
+        type: image
+        title: Front View
+        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+
+    -
+        type: paragraph
+        title: "Automatic Data Collection"
+        body: "
+        <br>
 
         I designed an automatic data collection system. An aruco marker is plaaced on the Whisker Robot which is stationary, <br>
         and another aruco marker on the part of the xy-plotter that moves along with the object the same magnitude and in  <br>
@@ -49,23 +68,34 @@ project_content:
         <br>
 
         After the completion of each step, there is a pause of about 2 seconds before the xy-plotter is instructed to take the next step.<br>
-        During this pause, an image of the membrane which might of might not have changed slightly depending on the contact or no contact of the object <br>
-        to part or whole of the whisker array, is captured. The image is saved with a name i.e 'Serialno._Timestamp', where the Serial_no. is indicative <br>
-        of the order in which the images are captured and the timestamp is indicative of the time (YY-MM-DD-HH-MM-SS-&#181). <br>
-        At the same instance, data is collected/stored in a csv file having the same serial number and timestamp under their respective columns, <br>
-        along with the x-coordinate and y-coordinate information as obtained by the aruco markers detected from the top camera, the direction <br>
-        in which the object was brought in contact with the whiskers (i.e left or right) is stored, and the x-step and y-step information <br>
-        as per the x-y plotter is stored as well. Due to motors slipping, the object might not end up at the commanded position each time <br>
-        thereby the x-step and y-step giving an incorrect indication of the actual position of the object. This issue is accounted for as the <br>
-        x,y coordinates information is collected via the top camera using aruco markers yielding far more accurate readings. <br>
+        During this pause, an image of the membrane which might of might not have changed slightly depending on the contact or no contact <br>
+        of the object to part or whole of the whisker array, is captured. The image is saved with a name i.e 'Serialno._Timestamp', where <br>
+        the Serial_no. is indicative of the order in which the images are captured and the timestamp is indicative of the time <br>
+        (YY-MM-DD-HH-MM-&#181S). At the same instance, data is collected/stored in a csv file having the same serial number and timestamp <br>
+        under their respective columns, along with the x-coordinate and y-coordinate information as obtained by the aruco markers detected <br>
+        from the top camera, the direction in which the object was brought in contact with the whiskers (i.e left or right) is stored, and <br>
+        the x-step and y-step information as per the x-y plotter is stored as well. Due to motors slipping, the object might not end up at <br>
+        the commanded position each time thereby the x-step and y-step giving an incorrect indication of the actual position of the object. <br>
+        This issue is accounted for as the x,y coordinates information is collected via the top camera using aruco markers yielding far <br>
+        more accurate readings. <br>
 
         <br>
         "
+    - 
+        type: image
+        title: Sample Dataset
+        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+
     -
         type: paragraph
         title: "Data Preprocessing"
         body: " 
         <br>
+        <ul>
+            <li> Correlate interior camera membrane images with coordinate information of the object based on Serial no.
+            <li> Remove NaN/missing values
+            <li> One hot encoding, specifically Label Encoder for direction (left and right in words to 0 and 1)
+        </ul>
         <br>
 
         <br>

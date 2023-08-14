@@ -1,12 +1,12 @@
 ---
 layout: project
-project_title: "Track and Grab a Pen"
-project_caption: "One-liner description | Sept 2022."
+project_title: "Who Stole my Pen?"
+project_caption: "Track and Grab a Pen | Sept 2022."
 
 project_content:
     - 
         type: image
-        title: A caption for the above image.
+        title: Track and Grab a Pen.
         body: /assets/images/thumbs/03.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     
     -
