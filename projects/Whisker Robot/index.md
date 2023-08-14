@@ -32,8 +32,9 @@ project_content:
         Whisker Robot and the object that is made to contact the whiskers, then there is an interior camera <br>
         mounted inside the Whisker Robot which obtains images of the membrane which is attatched to the whiskers. <br>
         This membrane changes with movement or changes in the position of any of the 9 whiskers of the whisker array. <br>
-        "
         <br>
+
+        "
     -
         type: image
         title: Top View
@@ -104,7 +105,7 @@ project_content:
     -
         type: image
         title: Model Architecture
-        body: ""
+        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
     -
         type: paragraph
         body: "
