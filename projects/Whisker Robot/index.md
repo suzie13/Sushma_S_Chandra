@@ -59,7 +59,7 @@ project_content:
         x,y coordinates information is collected via the top camera using aruco markers yielding far more accurate readings.
 
         <br>
-        ""    
+        "  
     -
         type: paragraph
         title: "Data Preprocessing"
