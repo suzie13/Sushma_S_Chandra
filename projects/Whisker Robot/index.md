@@ -37,17 +37,23 @@ project_content:
         "
     -
         type: image
+        title: Hardware Setup
+        body: "/assets/images/thumbs/Hardware_Setup.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+
+
+    -
+        type: image
         title: Top View
-        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+        body: "/assets/images/thumbs/Hardware_Setup.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
 
     -
         type: image
         title: Membrane Image
-        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+        body: "/assets/images/thumbs/membrane.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
     - 
         type: image
         title: Front View
-        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+        body: "/assets/images/thumbs/frontview.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
 
     -
         type: paragraph
@@ -55,7 +61,7 @@ project_content:
         body: "
         <br>
 
-        I designed an automatic data collection system. An aruco marker is plaaced on the Whisker Robot which is stationary, <br>
+        I designed an automatic data collection system. An aruco marker is placed on the Whisker Robot which is stationary, <br>
         and another aruco marker on the part of the xy-plotter that moves along with the object the same magnitude and in  <br>
         the same direction. Therefore, using these two aruco markers which is read from the top camera, the object position <br>
         relative to the Whisker Robot is acquired/calculated. The object is moved by a step size of two units (approximately 0.89mm) <br>
@@ -85,7 +91,7 @@ project_content:
     - 
         type: image
         title: Sample Dataset
-        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+        body: "/assets/images/thumbs/Automatic_Data_Collection.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
 
     -
         type: paragraph
@@ -96,6 +102,18 @@ project_content:
             <li> Correlate interior camera membrane images with coordinate information of the object based on Serial no.
             <li> Remove NaN/missing values
             <li> One hot encoding, specifically Label Encoder for direction (left and right in words to 0 and 1)
+            </li><li>Remove outliers or suspicious(since contact and non-contact range is decided manually, \
+            there is a time when the object(vertical peg) in this case is close to the whisker but not in contact) \
+            data during training the model(outlier detection)</li>
+            <li> In the model for classification of contact and non-contact there is some additional pre-processing required.
+            <li> The classes were unbalanced, i.e. the non-contact datasamples was around 7800 whereas the contact datasamples \
+             was around 1600. Since all the non-contact membrane images are exactly the same, there wouldn't be loss of information by reducing
+             the non-contact datasamples, the non-contact datasamples were removed and made equal to the number of 
+             of contact datasamples. </li>
+            <li> Performed stratified split to ensure there is a percentage of each class in the same ratio in both train \
+            and test dataset. </li>
+
+
         </ul>
         <br>
 
@@ -104,8 +122,8 @@ project_content:
         
     -
         type: image
-        title: Model Architecture
-        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+        title: Multimodal Flow Chart
+        body: "Multimodal_Flowchart.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
     -
         type: paragraph
         body: "
@@ -143,6 +161,19 @@ project_content:
         <br>
         "
     -
+        type: image
+        title: Model Architecture
+        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+
+    -
+        type: image
+        title: Model Architecture
+        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+    -
+        type: image
+        title: Model Architecture
+        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+    -
         type: paragraph
         title: "Results"
         body: "
@@ -164,7 +195,7 @@ project_content:
         title: "Future Scope"
         body: "
         <br>
-        <br>experiment with different ML algorithms, multi-modal approaches, predict shape, calculations
+        <br>experiment with different ML algorithms, multi-modal approaches, predict x, y, z coordinates (3D information), predict shape/ reconstruct, calculations
 
         <br>
         " 
