@@ -72,13 +72,14 @@ project_content:
         body: " 
         <br>
         <ul>
-            <li> Correlate interior camera membrane images with coordinate information of the object based on Serial no.
-            <li> Remove NaN/missing values
+            <li> Correlate interior camera membrane images with coordinate information of the object based on Serial no. </li>
+            <li> Remove NaN/missing values </li>
             <li> One hot encoding, specifically Label Encoder for direction (left and right in words to 0 and 1)
-            </li><li>Remove outliers or suspicious(since contact and non-contact range is decided manually, \
+            </li>
+            <li>Remove outliers or suspicious(since contact and non-contact range is decided manually, \
             there is a time when the object(vertical peg) in this case is close to the whisker but not in contact) \
             data during training the model(outlier detection)</li>
-            <li> In the model for classification of contact and non-contact there is some additional pre-processing required.
+            <li> In the model for classification of contact and non-contact there is some additional pre-processing required.  </li>
             <li> The classes were unbalanced, i.e. the non-contact datasamples was around 7800 whereas the contact datasamples \
              was around 1600. Since all the non-contact membrane images are exactly the same, there wouldn't be loss of information by reducing
              the non-contact datasamples, the non-contact datasamples were removed and made equal to the number of 
@@ -96,7 +97,7 @@ project_content:
     -
         type: image
         title: Multimodal Flow Chart
-        body: "/assets/images/thumbs/Multimodal_Flowchart.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
+        body: alt="https://www.w3schools.com/bootstrap4/paris.jpg"
     -
         type: paragraph
         body: "
@@ -149,7 +150,7 @@ project_content:
     -
         type: paragraph
         title: "Results"
-        body: "
+        body: "hmm
         <br>
         <br>
 
@@ -176,7 +177,7 @@ project_content:
     -
         type: paragraph
         body: " Github Link
-        <br>
+        <br>hmm
         <br>
 
         <br>
