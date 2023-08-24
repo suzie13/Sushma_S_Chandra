@@ -4,7 +4,10 @@ project_title: "Whisker Robot"
 project_caption: "Whisker Robot | April-August 2023."
 
 project_content:
-
+    - 
+        type: image
+        title: Whisker Robot
+        body: "/assets/images/thumbs/image.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
     -
         type: paragraph
         title: "Motive"
@@ -83,7 +86,7 @@ project_content:
             <li> The classes were unbalanced, i.e. the non-contact datasamples was around 7800 whereas the contact datasamples \
              was around 1600. Since all the non-contact membrane images are exactly the same, there wouldn't be loss of information by reducing
              the non-contact datasamples, the non-contact datasamples were removed and made equal to the number of 
-             of contact datasamples. </li>
+             contact datasamples. </li>
             <li> Performed stratified split to ensure there is a percentage of each class in the same ratio in both train \
             and test dataset. </li>
 
