@@ -40,12 +40,6 @@ project_content:
         title: Hardware Setup
         body: "/assets/images/thumbs/Hardware_Setup.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
-
-    -
-        type: image
-        title: Top View
-        body: "/assets/images/thumbs/Hardware_Setup.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
-
     -
         type: image
         title: Membrane Image
@@ -176,6 +170,24 @@ project_content:
     -
         type: paragraph
         title: "Results"
+        body: "
+        <br>
+        <br>
+
+        <br>
+        "
+    -
+        type: paragraph
+        title: "Accuracy"
+        body: "
+        <br>
+        <br>
+
+        <br>
+        "
+    -
+        type: paragraph
+        title: "Loss"
         body: "
         <br>
         <br>
