@@ -4,10 +4,6 @@ project_title: "Whisker Robot"
 project_caption: "Whisker Robot | April-August 2023."
 
 project_content:
-    - 
-        type: image
-        title: Whisker Robot
-        body: "/assets/images/thumbs/image.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
 
     -
         type: paragraph
@@ -35,19 +31,6 @@ project_content:
         <br>
 
         "
-    -
-        type: image
-        title: Hardware Setup
-        body: "/assets/images/thumbs/Hardware_Setup.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-
-    -
-        type: image
-        title: Membrane Image
-        body: "/assets/images/thumbs/membrane.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
-    - 
-        type: image
-        title: Front View
-        body: "/assets/images/thumbs/frontview.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
 
     -
         type: paragraph
@@ -82,10 +65,6 @@ project_content:
 
         <br>
         "
-    - 
-        type: image
-        title: Sample Dataset
-        body: "/assets/images/thumbs/Automatic_Data_Collection.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg"
 
     -
         type: paragraph
@@ -179,7 +158,7 @@ project_content:
     -
         type: paragraph
         title: "Accuracy"
-        body: "
+        body: "hmm
         <br>
         <br>
 
@@ -188,7 +167,7 @@ project_content:
     -
         type: paragraph
         title: "Loss"
-        body: "
+        body: "hmmm
         <br>
         <br>
 
