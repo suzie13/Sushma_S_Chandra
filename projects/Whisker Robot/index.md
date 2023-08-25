@@ -122,7 +122,7 @@ project_content:
     -
         type: image
         title: Multimodal Flow Chart
-        body: /assets/images/thumbs/Multimodal_Flowchart.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/Multimodal_Flowchart_resized.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         body: "
