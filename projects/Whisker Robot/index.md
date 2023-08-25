@@ -7,7 +7,7 @@ project_content:
     - 
         type: image
         title: Whisker Robot
-        body: /assets/images/thumbs/image.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/image.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Motive"
@@ -29,8 +29,8 @@ project_content:
         to the table to avoid any movement of either the Whisker Robot or the xy-plotter setup. There is a  <br>
         top camera, obtaining the top view of the hardware setup, a front-camera obtaining a front-view of the <br>
         Whisker Robot and the object that is made to contact the whiskers, then there is an interior camera <br>
-        mounted inside the Whisker Robot which obtains images of the membrane which is attatched to the whiskers. <br>
-        This membrane changes with movement or changes in the position of any of the 9 whiskers of the whisker array. <br>
+        mounted inside the Whisker Robot which captures images of the membrane which is attatched to the whiskers. <br>
+        This membrane changes with changes in the position of any of the 9 whiskers of the whisker array. <br>
         <br>
 
         "
@@ -41,12 +41,12 @@ project_content:
 
     -
         type: image
-        title: Membrane Image
+        title: Interior Camera View
         body: /assets/images/thumbs/membrane_resized.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     - 
         type: image
         title: Top View
-        body: /assets/images/thumbs/topview.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/topview.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     - 
         type: image
