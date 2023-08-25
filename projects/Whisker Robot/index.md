@@ -37,12 +37,17 @@ project_content:
     -
         type: image
         title: Hardware Setup
-        body: /assets/images/thumbs/Hardware_Setup.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/Hardware_Setup_resized.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
         type: image
         title: Membrane Image
-        body: /assets/images/thumbs/membrane.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/membrane_resized.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    - 
+        type: image
+        title: Top View
+        body: /assets/images/thumbs/topview.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+
     - 
         type: image
         title: Front View
