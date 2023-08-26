@@ -14,7 +14,7 @@ project_content:
         body: /assets/images/thumbs/Frontpage_new.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
-        body: " 
+        body: " The Interior camera view is overlayed on the top right corner of the Top Camera View.
         <br>
 
         "
