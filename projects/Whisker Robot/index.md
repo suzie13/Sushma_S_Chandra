@@ -7,7 +7,7 @@ project_content:
     - 
         type: image
         title: Whisker Robot
-        body: /assets/images/thumbs/image.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/image_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
         title: Whisker Robot Setup in Action
