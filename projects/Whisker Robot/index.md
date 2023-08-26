@@ -45,12 +45,12 @@ project_content:
     -
         type: image
         title: Hardware Setup
-        body: /assets/images/thumbs/Hardware_Setup_resized.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/Hardware_Setup_resized_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
         type: image
         title: Interior Camera View
-        body: /assets/images/thumbs/membrane_resized.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/membrane_resized.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     - 
         type: image
         title: Top View
@@ -170,16 +170,16 @@ project_content:
     -
         type: image
         title: Classification Model Architecture (Contact/Non-Contact)
-        body: /assets/images/thumbs/classsification_contactnoncontact.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/classsification_contactnoncontact_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
         type: image
         title: Classiffication Model Architecture (Left Direction/Right Direction)
-        body: /assets/images/thumbs/classification_leftright.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/classification_leftright_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
         title: Regression Model Architecture (x,y coordinates)
-        body: /assets/images/thumbs/Regression.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/Regression_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Results"
