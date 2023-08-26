@@ -14,14 +14,18 @@ project_content:
         body: /assets/images/thumbs/Frontpage_new.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
+        body: " 
+        <br>
+
+        "
+    -
+        type: paragraph
         title: "Motive"
         body: " The main goal is to make the robot be able to tell the position (x-coordinate, y-coordinate) <br>
         of an object that is in contact with the whiskers of the Robot. This is inspired by how rats are able to obtain <br>
         information about their surrounding environment with the help of their whiskers. <br>
         <br>
-        <br>
 
-        <br>
         "
     -
         type: paragraph
@@ -41,7 +45,7 @@ project_content:
     -
         type: image
         title: Hardware Setup
-        body: /assets/images/thumbs/Hardware_Setup_resized.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/Hardware_Setup_resized.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
         type: image
@@ -166,16 +170,16 @@ project_content:
     -
         type: image
         title: Classification Model Architecture (Contact/Non-Contact)
-        body: /assets/images/thumbs/Model_Architecture_CNN_classsification.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/classsification_contactnoncontact.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
         type: image
         title: Classiffication Model Architecture (Left Direction/Right Direction)
-        body: /assets/images/thumbs/Model_Architecture_CNN_classsification_2.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/classification_leftright.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
         title: Regression Model Architecture (x,y coordinates)
-        body: /assets/images/thumbs/Model_Architecture_CNN_regression.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/Regression.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Results"
