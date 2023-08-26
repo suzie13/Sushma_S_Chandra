@@ -9,6 +9,10 @@ project_content:
         title: Whisker Robot
         body: /assets/images/thumbs/image.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
+        type: image
+        title: Multimodal Flow Chart
+        body: /assets/images/thumbs/frontpage.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
         type: paragraph
         title: "Motive"
         body: " The main goal is to make the robot be able to tell the position (x-coordinate, y-coordinate) <br>
@@ -107,7 +111,7 @@ project_content:
             <li> In the model for classification of contact and non-contact there is some additional pre-processing required.  </li>
             <li> The classes were unbalanced, i.e. the non-contact datasamples was around 7800 whereas the contact datasamples \
              was around 1600. Since all the non-contact membrane images are exactly the same, there wouldn't be loss of information by reducing
-             the non-contact datasamples, the non-contact datasamples were removed and made equal to the number of 
+             the non-contact datasamples, the non-contact datasamples were downsampled and made equal to the number of 
              contact datasamples. </li>
             <li> Performed stratified split to ensure there is a percentage of each class in the same ratio in both train \
             and test dataset. </li>
@@ -175,7 +179,7 @@ project_content:
     -
         type: paragraph
         title: "Results"
-        body: "hmm
+        body: "
         <br>
         <br>
 
@@ -184,7 +188,7 @@ project_content:
     -
         type: paragraph
         title: "Accuracy"
-        body: "hmm
+        body: "
         <br>
         <br>
 
@@ -193,7 +197,7 @@ project_content:
     -
         type: paragraph
         title: "Loss"
-        body: "hmmm
+        body: "
         <br>
         <br>
 
