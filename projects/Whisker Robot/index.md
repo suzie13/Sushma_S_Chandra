@@ -96,7 +96,7 @@ project_content:
         "
     - 
         type: image
-        title: Sample Dataset
+        title: Sample Dataset (Color coded with serial number which represents increment in Time)
         body: /assets/images/thumbs/Automatic_Data_Collection.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
