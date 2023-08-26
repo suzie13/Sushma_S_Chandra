@@ -90,8 +90,6 @@ project_content:
         the commanded position each time thereby the x-step and y-step giving an incorrect indication of the actual position of the object. <br>
         This issue is accounted for as the x,y coordinates information is collected via the top camera using aruco markers yielding far <br>
         more accurate readings. <br>
-
-        <br>
         "
     - 
         type: image
