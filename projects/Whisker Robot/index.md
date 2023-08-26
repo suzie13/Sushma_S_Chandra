@@ -50,7 +50,7 @@ project_content:
     -
         type: image
         title: Interior Camera View
-        body: /assets/images/thumbs/membrane_resized_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/membrane_resized.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     - 
         type: image
         title: Top View
