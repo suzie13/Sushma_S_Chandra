@@ -170,7 +170,7 @@ project_content:
     -
         type: image
         title: Classification Model Architecture (Contact/Non-Contact)
-        body: /assets/images/thumbs/classsification_contactnoncontact_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/classification_contactnoncontact_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
         type: image
