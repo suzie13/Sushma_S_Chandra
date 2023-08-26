@@ -10,8 +10,8 @@ project_content:
         body: /assets/images/thumbs/image.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
-        title: Multimodal Flow Chart
-        body: /assets/images/thumbs/frontpage.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        title: Whisker Robot Setup in Action
+        body: /assets/images/thumbs/Frontpage.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Motive"
@@ -130,7 +130,7 @@ project_content:
     -
         type: paragraph
         body: "
-        <br>Explain each component and why each was chosen, regression output etc. <br>
+        <br>
         The colvolution layers extracts features from the input image using filters or weights/matrices <br>
         which are like a sliding window being multiplied with the input pixels. From the convolution <br>
         layers we obtain feature maps. The MaxPooling layer results in a downsampling picking up only <br>
@@ -216,7 +216,11 @@ project_content:
         title: "Future Scope"
         body: "
         <br>
-        <br>experiment with different ML algorithms, multi-modal approaches, predict x, y, z coordinates (3D information), predict shape/ reconstruct, calculations
+        <br>The future scope of this project is to obtain not just a 2D perspective (x,y coordinates) \
+        of the object but the 3D perspective (x,y and z coordinates) of the points of contact object. \
+        To further elaborate this, the objective is to obtain a point cloud of all the contact points \
+        (9 contact points) of object to the whisker, thereby better enabling to reconstruct the object that
+        came in contact with the whisker of the Whisker Robot through whisking.
 
         <br>
         " 
