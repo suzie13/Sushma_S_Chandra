@@ -10,13 +10,12 @@ project_content:
         body: /assets/images/thumbs/image_neww.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
-        title: Whisker Robot Setup in Action
+        title: Whisker Robot Setup in Action <br> The Interior camera view is overlayed onto the top right corner of the Top Camera View.
         body: /assets/images/thumbs/Frontpage_new.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
-        body: " The Interior camera view is overlayed on the top right corner of the Top Camera View.
+        body: " 
         <br>
-
         "
     -
         type: paragraph
@@ -98,12 +97,15 @@ project_content:
         type: image
         title: Sample Dataset (Color coded with serial number which represents increment in Time)
         body: /assets/images/thumbs/Automatic_Data_Collection.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-
+    -
+        type: paragraph
+        body: " 
+        <br>
+        "
     -
         type: paragraph
         title: "Data Preprocessing"
         body: " 
-        <br>
         <ul>
             <li> Correlate interior camera membrane images with coordinate information of the object based on Serial no. </li>
             <li> Remove NaN/missing values </li>
