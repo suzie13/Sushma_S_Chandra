@@ -11,7 +11,7 @@ project_content:
     -
         type: image
         title: Whisker Robot Setup in Action
-        body: /assets/images/thumbs/Frontpage.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/Frontpage_new.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Motive"
@@ -215,13 +215,12 @@ project_content:
         type: paragraph
         title: "Future Scope"
         body: "
-        <br>
         <br>The future scope of this project is to obtain not just a 2D perspective (x,y coordinates) \
         of the object but the 3D perspective (x,y and z coordinates) of the points of contact object. \
         To further elaborate this, the objective is to obtain a point cloud of all the contact points \
         (9 contact points) of object to the whisker, thereby better enabling to reconstruct the object that
         came in contact with the whisker of the Whisker Robot through whisking.
-
+        <br>
         <br>
         " 
     -
