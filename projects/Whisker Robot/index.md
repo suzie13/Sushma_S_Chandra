@@ -7,7 +7,7 @@ project_content:
     - 
         type: image
         title: Whisker Robot
-        body: /assets/images/thumbs/image_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/image_neww.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
         title: Whisker Robot Setup in Action
@@ -46,7 +46,7 @@ project_content:
     -
         type: image
         title: Interior Camera View
-        body: /assets/images/thumbs/membrane_resized.jpg" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+        body: /assets/images/thumbs/membrane_resized_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     - 
         type: image
         title: Top View
@@ -165,17 +165,17 @@ project_content:
         "
     -
         type: image
-        title: Model Architecture
-        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+        title: Classification Model Architecture (Contact/Non-Contact)
+        body: /assets/images/thumbs/Model_Architecture_CNN_classsification.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
         type: image
-        title: Model Architecture
-        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+        title: Classiffication Model Architecture (Left Direction/Right Direction)
+        body: /assets/images/thumbs/Model_Architecture_CNN_classsification_2.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
-        title: Model Architecture
-        body: "https://www.w3schools.com/bootstrap4/paris.jpg"
+        title: Regression Model Architecture (x,y coordinates)
+        body: /assets/images/thumbs/Model_Architecture_CNN_regression.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Results"
@@ -216,10 +216,10 @@ project_content:
         title: "Future Scope"
         body: "
         <br>The future scope of this project is to obtain not just a 2D perspective (x,y coordinates) \
-        of the object but the 3D perspective (x,y and z coordinates) of the points of contact object. \
-        To further elaborate this, the objective is to obtain a point cloud of all the contact points \
-        (9 contact points) of object to the whisker, thereby better enabling to reconstruct the object that
-        came in contact with the whisker of the Whisker Robot through whisking.
+        of the object but the 3D perspective (x,y and z coordinates) of the points of contact of object \
+        to the whisker. To further elaborate this, the objective is to obtain a point cloud of all the \ 
+        contact points (9 contact points) of object to the whisker, thereby better enabling to reconstruct \
+        the object that came in contact with the whisker of the Whisker Robot through whisking.
         <br>
         <br>
         " 
@@ -231,8 +231,8 @@ project_content:
         Dr. Mitra Hartmann (Principle Investigator at SeNSE LAB) <br>
         Mr. Kevin James Kleczka (Research Engineer at SeNSE LAB) <br>
         Professor Matthew Elwin (Co-Director of MS in Robotics program) <br>
-
-        SeNSE LAB  (Sensory and Neural Systems Engineering)
+        <br>
+        SeNSE LAB  (Sensory and Neural Systems Engineering) <br>
         (Link) https://sense-lab.github.io/index.html
         <br>
 
