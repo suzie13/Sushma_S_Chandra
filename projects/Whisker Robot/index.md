@@ -253,10 +253,10 @@ project_content:
         The goal is to minimize this loss during training. <br>
 
         MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
-        for left direction was = 0.48461 cm^2 <br>
+        for left direction was = 0.48461 cm2 <br>
 
         MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
-        for right direction was = 0.14036 cm^2 <br>
+        for right direction was = 0.14036 cm2 <br>
         "
     -
         type: image
