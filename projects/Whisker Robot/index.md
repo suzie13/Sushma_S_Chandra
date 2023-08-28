@@ -212,47 +212,14 @@ project_content:
         body: "
         <br>
         "
-    -
-        type: image
-        title: Training and Test Accuracy across epochs for classification (Contact/Non-Contact) model
-        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    -
-        type: image
-        title: Training and Test Accuracy across epochs for classification (Left Direction/Right Direction) model
-        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    -
-        type: image
-        title: Results of regression (x-coordinate, y-coordinate) model for left direction. Predicted VS Ground Truth <br>
-        For an ideal model all of the data points would lie on the dashed red line
-        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    -
-        type: image
-        title: Results of regression (x-coordinate, y-coordinate) model for right direction. Predicted VS Ground Truth <br>
-        For an ideal model all of the data points would lie on the dashed red line
-        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+
     -
         type: paragraph
         title: "Loss"
         body: "
         <br>
         "
-    -
-        type: image
-        title: Training Loss across Epochs for classification (Contact/Non-Contact) model
-        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    -
-        type: image
-        title: Training Loss across Epochs for classification (Left Direction/Right Direction) model
-        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    -
-        type: image
-        title: Training Loss across Epochs for regression left model
-        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    -
-        type: image
-        title: Training Loss across Epochs for regression right model
-        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
-    -
+
         type: paragraph
         body: " Github Link
         <br>
