@@ -211,8 +211,8 @@ project_content:
         title: "Accuracy"
         body: "
         <br> Accuracy(%) = (N_total/​N_correct​​)*100 <br>
-        N_correct​ = number of samples that were correctly classified. <br>
-        N_total​ = total number of samples in the dataset. <br>
+        N_correct​ --> number of samples that were correctly classified. <br>
+        N_total​ --> total number of samples in the dataset. <br>
         "
     -
         type: image
@@ -224,13 +224,11 @@ project_content:
         body: /assets/images/thumbs/direction_accuracy.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
-        title: Results of regression (x-coordinate, y-coordinate) model for left direction. Predicted VS Ground Truth <br>
-        For an ideal model all of the data points would lie on the dashed red line
+        title: Results of regression (x-coordinate, y-coordinate) model for left direction. Predicted VS Ground Truth <br> For an ideal model all of the data points would lie on the dashed red line
         body: /assets/images/thumbs/regressionleft_accuracy.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
-        title: Results of regression (x-coordinate, y-coordinate) model for right direction. Predicted VS Ground Truth <br>
-        For an ideal model all of the data points would lie on the dashed red line
+        title: Results of regression (x-coordinate, y-coordinate) model for right direction. Predicted VS Ground Truth <br> For an ideal model all of the data points would lie on the dashed red line
         body: /assets/images/thumbs/regressionright_accuracy.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
@@ -253,10 +251,10 @@ project_content:
         The goal is to minimize this loss during training. <br>
 
         MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
-        for left direction was = 0.48461 cm2 <br>
+        for left direction was = 0.48461 cm^2 <br>
 
         MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
-        for right direction was = 0.14036 cm2 <br>
+        for right direction was = 0.14036 cm^2 <br>
         "
     -
         type: image
