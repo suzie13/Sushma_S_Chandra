@@ -212,12 +212,48 @@ project_content:
         body: "
         <br>
         "
+    -
+        type: image
+        title: Training and Test Accuracy across epochs for classification (Contact/Non-Contact) model
+        body: /assets/images/thumbs/contactnoncontact_accuracy.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Training and Test Accuracy across epochs for classification (Left Direction/Right Direction) model
+        body: /assets/images/thumbs/direction_accuracy.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Results of regression (x-coordinate, y-coordinate) model for left direction. Predicted VS Ground Truth <br>
+        For an ideal model all of the data points would lie on the dashed red line
+        body: /assets/images/thumbs/regressionleft_accuracy.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Results of regression (x-coordinate, y-coordinate) model for right direction. Predicted VS Ground Truth <br>
+        For an ideal model all of the data points would lie on the dashed red line
+        body: /assets/images/thumbs/regressionright_accuracy.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
 
     -
+    
         type: paragraph
         title: "Loss"
         body: "
+        <br>In the classification models I used categorical loss entropy function to calculate the loss <br>
+        as the in classification there is a class (discrete value) prediction with a confidence level <br>
+        or in other words probability of each of the classes it is trained on. <br>
+
+        Whereas, in the regression model the loss function that is used here is mean squared error (MSE). <br>
+
+
         <br>
+        <br>
+        <br>
+
+
+
+        MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
+        for left direction was = 0.48461 cm^2
+
+        MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
+        for right direction was = 0.14036 cm^2
         "
     -
         type: image
