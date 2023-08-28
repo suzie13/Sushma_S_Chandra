@@ -219,6 +219,24 @@ project_content:
         body: "
         <br>
         "
+    -
+        type: image
+        title: Training and Test Loss across Epochs for classification (Contact/Non-Contact) model
+        body: /assets/images/thumbs/contactnoncontact_loss.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Training and Test Loss across Epochs for classification (Left Direction/Right Direction) model
+        body: /assets/images/thumbs/direction_loss.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Training Loss across Epochs for regression left model
+        body: /assets/images/thumbs/regressionleft_loss.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Training Loss across Epochs for regression right model
+        body: /assets/images/thumbs/regressionright_loss.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+
 
         type: paragraph
         body: " Github Link
