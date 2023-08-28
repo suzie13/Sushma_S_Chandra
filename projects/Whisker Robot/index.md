@@ -210,7 +210,9 @@ project_content:
         type: paragraph
         title: "Accuracy"
         body: "
-        <br>
+        <br> Accuracy(%) = (N_total/​N_correct​​)*100 <br>
+        N_correct​ --> number of samples that were correctly classified. <br>
+        N_total​ --> total number of samples in the dataset. <br>
         "
     -
         type: image
