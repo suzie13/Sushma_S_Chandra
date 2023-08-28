@@ -199,11 +199,13 @@ project_content:
         "
     -
         type: image
-        title: Final Result of CNN Multimodal algorithm
+        title: Final Result of CNN Multimodal algorithm <br>
+        In an ideal scenario, all the data points would be on the blue dashed line.
         body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
-        title: Final Result of CNN Multimodal algorithm (Individually for left and right direction)
+        title: Final Result of CNN Multimodal algorithm (Individually for left and right direction) <br>
+        In an ideal scenario, all the data points would be on the blue dashed line.
         body: /assets/images/thumbs/graph_2.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
 
