@@ -21,7 +21,7 @@ project_content:
         type: paragraph
         title: "Motive"
         body: " The main goal is to make the robot be able to tell the position (x-coordinate, y-coordinate) <br>
-        of an object that is in contact with the whiskers of the Robot. This is inspired by how rats are able to obtain <br>
+        of an object that is in contact with the whiskers of the Robot. This is inspired by how rats perceive <br>
         information about their surrounding environment with the help of their whiskers. <br>
         <br>
 
@@ -241,6 +241,7 @@ project_content:
         or in other words probability of each of the classes it is trained on. <br>
 
         Whereas, in the regression model the loss function that is used here is mean squared error (MSE). <br>
+        In regression, a continous value prediction is made.
 
 
         <br>
@@ -297,12 +298,10 @@ project_content:
         Mr. Kevin James Kleczka (Research Engineer at SeNSE LAB) <br>
         Professor Matthew Elwin (Co-Director of MS in Robotics program) <br>
         <br>
-        SeNSE LAB  (Sensory and Neural Systems Engineering) <br>
-        (Link) https://sense-lab.github.io/index.html
-        <br>
-
-        <br>
         "
+    -
+        type: paragraph
+        body: <a href="https://sense-lab.github.io/index.html ">SeNSE LAB  (Sensory and Neural Systems Engineering)</a>
     -
 
 ---
