@@ -241,22 +241,38 @@ project_content:
         or in other words probability of each of the classes it is trained on. <br>
 
         Whereas, in the regression model the loss function that is used here is mean squared error (MSE). <br>
-        In regression, a continous value prediction is made.
-
-
+        In regression, a continous value prediction is made. <br> "
+    -
+        type: image
+        body: /assets/images/thumbs/categorical_cross_entropy.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: paragraph
+        body: "
         <br>
-        <br>
-        <br>
-
+        C = number of classes <br>
+        y_true,i = true value or ground truth <br>
+        y_pred,i= predicted value ​<br>
         This formula calculates the negative log-likelihood of the true class label under the predicted class probabilities. <br>
         The goal is to minimize this loss during training. <br>
-
+        "
+    -
+        type: image
+        body: /assets/images/thumbs/mse.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: paragraph
+        body: "
+        <br>
+        n = number of data points <br>
+        Y_i = true value <br>
+        Yhat_i = predicted value <br>
+        <br>
         MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
         for left direction was = 0.48461 cm^2 <br>
 
         MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
         for right direction was = 0.14036 cm^2 <br>
         "
+
     -
         type: image
         title: Training and Test Loss across Epochs for classification (Contact/Non-Contact) model
