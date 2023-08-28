@@ -273,15 +273,9 @@ project_content:
         title: Training Loss across Epochs for regression right model
         body: /assets/images/thumbs/regressionright_loss.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
-
-
         type: paragraph
-        body: " Github Link
-        <br>
-        <br>
-
-        <br>
-        "
+        title: "Code"
+        body: <a href="https://github.com/suzie13/Whisker-Robot-Project/tree/main ">Github Link</a>
     -
         type: paragraph
         title: "Future Scope"
