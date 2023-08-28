@@ -182,31 +182,67 @@ project_content:
         body: /assets/images/thumbs/Regression_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
+        body: "
+        <br> Each of the models was trained and tested on full resolution images (1080,1920,3). A Total of 15,710 data samples is <br>
+        collected via the automatic data collection system. After removing NaN values and suspicious data, there is 9137 data samples <br>
+        remaining. Since x,y coordinate approximate ranges for contact and non-contact is decided manually, it isn't perfectly accurate. <br>
+        Suspicious data is the data sample for those ranges when the object is close to the whisker but not in contact, or just touching <br>
+        the whisker but has not moved the whisker causing any change in the membrane that isn't negligible.After geting rid of this <br>
+        untrustworthy data, a significant improvement in results was observed in the x-coordinate and y-coordinate prediction results in 
+        the regression model. <br>
+        "
+    -
+        type: paragraph
         title: "Results"
         body: "
         <br>
-        <br>
-
-        <br>
         "
     -
+        type: image
+        title: Final Result of CNN Multimodal algorithm
+        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Final Result of CNN Multimodal algorithm (Individually for left and right direction)
+        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+
         type: paragraph
         title: "Accuracy"
         body: "
         <br>
-        <br>
-
-        <br>
         "
+    -
+        type: image
+        title: Training and Test Accuracy across epochs for classification (Contact/Non-Contact) model
+        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Training and Test Accuracy across epochs for classification (Left Direction/Right Direction) model
+        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Results of regression (x-coordinate, y-coordinate) model. Predicted VS Ground Truth <br>
+        For an ideal model all of the data points would lie on the dashed red line
+        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         title: "Loss"
         body: "
         <br>
-        <br>
-
-        <br>
         "
+    -
+        type: image
+        title: Training Loss across Epochs for classification (Contact/Non-Contact) model
+        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Training Loss across Epochs for classification (Left Direction/Right Direction) model
+        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
+    -
+        type: image
+        title: Training Loss across Epochs for regression () model
+        body: /assets/images/thumbs/graph_1.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
         body: " Github Link
