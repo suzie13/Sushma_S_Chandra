@@ -44,5 +44,9 @@ project_content:
         The PincherX 100 robotic arm which has a 4 degree of freedom tracks the pen and moves to the coordinates of the detected purple pen and grabs the pen by closing its grippers, comes to the home position and opens its grippers to drop the pen.        
         <br>
         "
+    -
+        type: paragraph
+        body: <a href="https://github.com/suzie13/Pen_Challenge_Hackathon ">Github</a>
+    -
 ---
 
