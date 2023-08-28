@@ -211,8 +211,8 @@ project_content:
         title: "Accuracy"
         body: "
         <br> Accuracy(%) = (N_total/​N_correct​​)*100 <br>
-        N_correct​ --> number of samples that were correctly classified. <br>
-        N_total​ --> total number of samples in the dataset. <br>
+        N_correct​ = number of samples that were correctly classified. <br>
+        N_total​ = total number of samples in the dataset. <br>
         "
     -
         type: image
@@ -238,7 +238,7 @@ project_content:
         type: paragraph
         title: "Loss"
         body: "
-        <br>In the classification models I used categorical loss entropy function to calculate the loss <br>
+        <br>In the classification models I used categorical coss-entropy function to calculate the loss <br>
         as the in classification there is a class (discrete value) prediction with a confidence level <br>
         or in other words probability of each of the classes it is trained on. <br>
 
@@ -249,13 +249,14 @@ project_content:
         <br>
         <br>
 
-
-
-        MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
-        for left direction was = 0.48461 cm^2
+        This formula calculates the negative log-likelihood of the true class label under the predicted class probabilities. <br>
+        The goal is to minimize this loss during training. <br>
 
         MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
-        for right direction was = 0.14036 cm^2
+        for left direction was = 0.48461 cm^2 <br>
+
+        MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
+        for right direction was = 0.14036 cm^2 <br>
         "
     -
         type: image
