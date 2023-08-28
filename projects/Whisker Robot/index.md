@@ -252,6 +252,7 @@ project_content:
         C = number of classes <br>
         y_true,i = true value or ground truth <br>
         y_pred,i= predicted value ​<br>
+        <br>
         This formula calculates the negative log-likelihood of the true class label under the predicted class probabilities. <br>
         The goal is to minimize this loss during training. <br>
         "
@@ -263,7 +264,7 @@ project_content:
         body: "
         <br>
         n = number of data points <br>
-        Y_i = true value <br>
+        Y_i = true value or ground truth<br>
         Yhat_i = predicted value <br>
         <br>
         MSE achieved on test data after 206 epochs for the regression model trained on only contact data, and only <br>
