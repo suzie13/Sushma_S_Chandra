@@ -141,7 +141,7 @@ project_content:
         "
     -
         type: paragraph
-        title: "<i>Neural Network Structure:<i>"
+        title: "<i>Neural Network Structure:</i>"
         body: " 
         <br>
 
@@ -162,7 +162,7 @@ project_content:
         Hyperparameter tuning like experimenting with the learning rate,number of layers, number of filters in each layer, <br>
         using batch normalization, using regularization, using dropout layers can be done to try to achieve improved results. <br>
         <br>
-        <i>Below are the detailed diagram of each of the model architectures that constitute the multimodal algorithm:<i>
+        <i>Below are the detailed diagram of each of the model architectures that constitute the multimodal algorithm:</i>
         <br>
 
         <br>
