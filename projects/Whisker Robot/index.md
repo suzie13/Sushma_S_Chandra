@@ -10,7 +10,7 @@ project_content:
         body: /assets/images/thumbs/image_neww.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
-        title: Whisker Robot Setup in Action <br> The Interior camera view is overlayed onto the top right corner of the Top Camera View.
+        title: Whisker Robot Setup in Action <br> The Interior camera view is overlayed onto the top right corner of the Top Camera View. <br> The interior camera view is fed into an ML algorithm to determine the contact location of an object presented to the whiskers.
         body: /assets/images/thumbs/Frontpage_new.gif" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: paragraph
@@ -79,17 +79,6 @@ project_content:
         <br>
         <br>
 
-        After the completion of each step, there is a pause of about 2 seconds before the xy-plotter is instructed to take the next step.<br>
-        During this pause, an image of the membrane which might of might not have changed slightly depending on the contact or no contact <br>
-        of the object to part or whole of the whisker array, is captured. The image is saved with a name i.e 'Serialno._Timestamp', where <br>
-        the Serial_no. is indicative of the order in which the images are captured and the timestamp is indicative of the time <br>
-        (YY-MM-DD-HH-MM-&#181S). At the same instance, data is collected/stored in a csv file having the same serial number and timestamp <br>
-        under their respective columns, along with the x-coordinate and y-coordinate information as obtained by the aruco markers detected <br>
-        from the top camera, the direction in which the object was brought in contact with the whiskers (i.e left or right) is stored, and <br>
-        the x-step and y-step information as per the x-y plotter is stored as well. Due to motors slipping, the object might not end up at <br>
-        the commanded position each time thereby the x-step and y-step giving an incorrect indication of the actual position of the object. <br>
-        This issue is accounted for as the x,y coordinates information is collected via the top camera using aruco markers yielding far <br>
-        more accurate readings. <br>
         "
     - 
         type: image
@@ -126,7 +115,12 @@ project_content:
 
         <br>
         "
-        
+    -
+        type: paragraph
+        title: "Machine Learning Algorithm"
+        body: " 
+        <br>
+        "
     -
         type: image
         title: Multimodal Flow Chart
