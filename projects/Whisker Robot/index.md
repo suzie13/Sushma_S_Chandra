@@ -129,34 +129,37 @@ project_content:
         type: paragraph
         body: "
         <br>
+        A neural network is first used to perform a classification task i.e. to classify that the membrane <br>
+        image corresponds to that when there is or isn't contact of the object to any of the whiskers. <br>
+        Another neural network is then incorporated to classify if the membrane image corresponds to that <br>
+        when the object has approached the whisker array from the left direction or from the right direction, <br>
+        only after it has classified that the image is for a object-whisker contact point. <br>
+        <br>
+        Thereafter, it is important to note that a separate neural network performs the regression task of predicting <br>
+        the x and y coordinates of the object that came in contact with the whisker array for each the left <br>
+        direction and right direction contact point. This entire structure is depicted through the flow chart above. <br>
+
+
+
+        Neural Network Structure:
         The colvolution layers extracts features from the input image using filters or weights/matrices <br>
         which are like a sliding window being multiplied with the input pixels. From the convolution <br>
         layers we obtain feature maps. The MaxPooling layer results in a downsampling picking up only <br>
         the important features. In this case I have used a Max-Pooling layer with pool size (2,2),  <br>
-        <br>
-        <br>
-        The formula to calculate the output shape of a Conv2D layer is: <br>
-
-        Output height = (Input height - Filter height + 2 * Padding) / Stride + 1 <br>
-        Output width = (Input width - Filter width + 2 * Padding) / Stride + 1 <br>
-
-        <br>
-        Too calculate output shape after the Max Pooling layer: <br>
-        ((input height/pool size), (input width/pool size), number of channels) <br>
         <br>
 
         The flatten layer is primary responsible for vectorization into a 1D (one-dimension),        <br>
         for feature aggregation by forming a comprehensive set of features, and to aid in transition <br>
         into fully connected layers. <br>
         <br>
-        Therefore, the output shape is simply: input height * input width * number of channels <br>
-        <br>
+
         Fully Connected layers, also known as Dense layers, is responsible for end to end learning,  <br>
         used for decision-making and final predictions. It is connected to all th neurons of the previous layer. <br>                         
         Here, the model learns more abstract features from the input image. <br>
         Hyperparameter tuning like experimenting with the learning rate,number of layers, number of filters in each layer, <br>
         using batch normalization, using regularization, using dropout layers can be done to try to achieve improved results. <br>
-
+        <br>
+        Below are the detailed diagram of each of the model architectures that constitute the multimodal algorithm:
         <br>
 
         <br>
@@ -168,7 +171,7 @@ project_content:
 
     -
         type: image
-        title: Classiffication Model Architecture (Left Direction/Right Direction)
+        title: Classification Model Architecture (Left Direction/Right Direction)
         body: /assets/images/thumbs/classification_leftright_new.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg
     -
         type: image
