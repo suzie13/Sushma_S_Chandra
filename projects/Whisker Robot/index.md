@@ -135,13 +135,16 @@ project_content:
         when the object has approached the whisker array from the left direction or from the right direction, <br>
         only after it has classified that the image is for a object-whisker contact point. <br>
         <br>
-        Thereafter, it is important to note that a separate neural network performs the regression task of predicting <br>
+        Thereafter, it is noteworthy that a separate neural network performs the regression task of predicting <br>
         the x and y coordinates of the object that came in contact with the whisker array for each the left <br>
         direction and right direction contact point. This entire structure is depicted through the flow chart above. <br>
+        "
+    -
+        type: paragraph
+        title: "<i>Neural Network Structure:<i>"
+        body: " 
+        <br>
 
-
-
-        Neural Network Structure:
         The colvolution layers extracts features from the input image using filters or weights/matrices <br>
         which are like a sliding window being multiplied with the input pixels. From the convolution <br>
         layers we obtain feature maps. The MaxPooling layer results in a downsampling picking up only <br>
@@ -159,7 +162,7 @@ project_content:
         Hyperparameter tuning like experimenting with the learning rate,number of layers, number of filters in each layer, <br>
         using batch normalization, using regularization, using dropout layers can be done to try to achieve improved results. <br>
         <br>
-        Below are the detailed diagram of each of the model architectures that constitute the multimodal algorithm:
+        <i>Below are the detailed diagram of each of the model architectures that constitute the multimodal algorithm:<i>
         <br>
 
         <br>
